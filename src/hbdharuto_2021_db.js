@@ -175,7 +175,7 @@ var arrQuestion = [
       '<div class="answer_bottom">B</div><div class="answer_centering"><span class="t_jp">コラボカフェ</span></div>',
       '<div class="answer_bottom">C</div><div class="answer_centering"><span class="t_jp">服屋</span></div>',
       '<div class="answer_bottom">D</div><div class="answer_centering"><span class="t_jp">火鍋レストラン</span></div>'],  // a in jp
-    0,  // indeks jawaban yang benar
+    3,  // indeks jawaban yang benar
     39, // comment 1 first indeks
     40 // comment 2 first indeks
   ],
