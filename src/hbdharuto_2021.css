@@ -1,6 +1,6 @@
 html {
 	background-image: url(../images/background_pattern.jpg);
-	background-size: auto 20.74vh;
+	background-size: auto 20.74vmin;
 	background-color: #344ea9;
 	background-position: center bottom;
 	background-repeat: repeat-x;
@@ -10,11 +10,11 @@ html {
 .haruto_2021, .haruto_2020, .haruto_2018 {
 
 	
-	height: 100vh;
+	height: calc(100vmin - calc(100vmin - 100%));
 	position: absolute;
 	top: 0;
-	left: 0vw;
-	width: 65vh;
+	left: 0vmax;
+	width: 65vmin;
 	background-size: contain;
 	background-position: center bottom;
 	background-repeat: no-repeat;
@@ -69,10 +69,10 @@ html {
 #question_holder {
 
 	position: absolute;
-	top: 5.74vh;
+	top: 3.74vmin;
 	right: 0;
-	width: 116.85vh;
-	height: 21.76vh;
+	width: 116.85vmin;
+	height: 21.76vmin;
 	background-position: right center;
 	background-repeat: no-repeat;
 	background-size: contain;
@@ -83,11 +83,11 @@ html {
 
 #answer_container {
 	position: absolute;
-	top: calc(5.74vh + 21.76vh + 4vh);
+	top: calc(3.74vmin + 21.76vmin + 4vmin);
 	right: 0;
-	width: calc(116.85vh - 5.08vh);
-	height: 42.4vh;
-	padding-left: 5.08vh;
+	width: calc(116.85vmin - 5.08vmin);
+	height: 42.4vmin;
+	padding-left: 5.08vmin;
 	display: flex;
 	flex-wrap: wrap;
 }
@@ -95,14 +95,14 @@ html {
 .answer_box {
 
 	position: relative;
-	width: 47.48vh;
-	height: 20.09vh;
+	width: 47.48vmin;
+	height: 20.09vmin;
 	background-image: url(../images/bg_answer_raw.jpg);
-	background-position: right 0.926vh;
-	background-size: 46.11vh 17.68vh;
+	background-position: right 0.926vmin;
+	background-size: 46.11vmin 17.68vmin;
 	background-repeat: no-repeat;
-	margin-right: 3vw;
-	margin-bottom: 1.04vw;
+	margin-right: 3vmax;
+	margin-bottom: 1.04vmax;
 
 	color: #e8e8e8;
 	font-family: Lato;
@@ -111,10 +111,10 @@ html {
 
 .answer_bg {
 	position: absolute;
-top: 1vh;
+top: 1vmin;
 left: 0;
-width: 46.11vh;
-height: 17.68vh;
+width: 46.11vmin;
+height: 17.68vmin;
 background-color: #1f1f1f;
 transform: rotate(-4deg);
 transition: all 0.25s ease-in-out;
@@ -131,12 +131,12 @@ background-color: #519fff;
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	width: 42.32vh;
-height: 19.53vh;
+	width: 42.32vmin;
+height: 19.53vmin;
 position: absolute;
 z-index: 10;
-left: 1.8vh;
-top: 0.3vh;
+left: 1.8vmin;
+top: 0.3vmin;
 cursor: pointer;
 text-transform: uppercase;
 letter-spacing: 1px;
@@ -144,9 +144,9 @@ letter-spacing: 1px;
 
 .answer_bottom {
 	position: absolute;
-bottom: 1.5vh;
-left: 2vh;
-font-size: 3vh;
+bottom: 1.5vmin;
+left: 2vmin;
+font-size: 3vmin;
 }
 
 #hints_container {
@@ -154,20 +154,20 @@ font-size: 3vh;
 	position: absolute;
 	bottom: 0;
 	right: 0;
-	width: calc(116.85vh - 5.08vh);
-	height: calc(100vh - (5.74vh + 21.76vh + 5vh + 42.4vh + 1.5vh));
-	padding-left: 5.08vh;
+	width: calc(116.85vmin - 5.08vmin);
+	height: calc(100vmin - (5.74vmin + 21.76vmin + 4vmin + 42.4vmin));
+	padding-left: 5.08vmin;
 	
 }
 
 #catto_buttons_container {
 	position: relative;
-	height: 9.26vh;
+	height: 9.26vmin;
 }
 
 #catto_buttons_container .wording {
 	position: absolute;
-bottom: 2vh;
+bottom: 2vmin;
 background-color: #1f1f1f;
 color: #fff;
 font-family: Lato;
@@ -175,13 +175,13 @@ font-weight: 700;
 font-style: italic;
 text-transform: uppercase;
 letter-spacing: 3px;
-width: 54vh;
-padding: 1.2vh;
-border-radius: 1vh;
+width: 54vmin;
+padding: 1.2vmin;
+border-radius: 1vmin;
 }
 
 .catto_buttons_list {
-	padding-left: 10.28vh;
+	padding-left: 10.28vmin;
 	display: flex;
 	position: relative;
 z-index: 5;
@@ -189,11 +189,11 @@ z-index: 5;
 
 .catto_button {
 	background-color: #e8e8e8;
-	height: 7.4vh;
-	width: 7.4vh;
+	height: 7.4vmin;
+	width: 7.4vmin;
 	border-radius: 100%;
 	border: 5px solid #1f1f1f;
-	margin-right: 1.3vh;
+	margin-right: 1.3vmin;
 	background-position: left center;
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -234,11 +234,11 @@ z-index: 5;
 	
 	background-repeat: no-repeat;
 	background-size: contain;
-	left: 38vw;
+	left: 38vmax;
 	bottom: 0;
 	background-position: center bottom;
-	height: 31vh;
-width: 35vh;
+	height: 31vmin;
+width: 35vmin;
 opacity: 0;
 transition:  all 0.5s ease-in-out;
 }
@@ -258,10 +258,10 @@ transition:  all 0.5s ease-in-out;
 #hint_desc_container {
 	background-color: #e8e8e8;
 	position: absolute;
-	height: calc(20.74vh - 9.26vh);
-	width: 35vw;
-	bottom: 1.5vh;
-	border-radius: 1.5vh;
+	height: calc(20.74vmin - 7.26vmin);
+	width: 35vmax;
+	bottom: 2vmin;
+	border-radius: 1.5vmin;
 	color: #000000;
 
 }
@@ -270,29 +270,29 @@ transition:  all 0.5s ease-in-out;
 	content: "";
 width: 0;
 height: 0;
-border-top: 6vh solid transparent;
-border-bottom: 6vh solid transparent;
-border-left: 6vh solid #e8e8e8;
+border-top: 6vmin solid transparent;
+border-bottom: 6vmin solid transparent;
+border-left: 6vmin solid #e8e8e8;
 position: absolute;
-right: -2vh;
+right: -2vmin;
 top: 0;
 }
 
 .hint_desc_buttons {
 	position: absolute;
-	bottom: 0.5vw;
-	left: 0.5vw;
+	bottom: 0.5vmax;
+	left: 0.5vmax;
 }
 
 .hint_desc_paragraph {
-	height: calc(20.74vh - 9.26vh - 20px);
-	width: calc(35vw - 60px);
+	height: calc(20.74vmin - 7.26vmin - 20px);
+	width: calc(35vmax - 60px);
 	padding: 10px 30px;
 	display: flex;
 	align-items: center;
 	font-family: Lato;
 	text-transform: uppercase;
-	font-size: 0.95vw;
+	font-size: 0.95vmax;
 letter-spacing: 1px;
 }
 
@@ -301,17 +301,17 @@ letter-spacing: 1px;
 font-family: Lato;
 font-weight: 900;
 position: absolute;
-top: 7.5vh;
-font-size: 4.5vh;
-line-height: 4.5vh;
-left: 1vh;
+top: 7.5vmin;
+font-size: 4.5vmin;
+line-height: 4.5vmin;
+left: 1vmin;
 }
 
 #question_maksimum {
 	color: #519fff;
-font-size: 2vh;
-padding-left: 2.8vh;
-line-height: 2vh;
+font-size: 2vmin;
+padding-left: 2.8vmin;
+line-height: 2vmin;
 }
 
 #question_content {
@@ -320,11 +320,11 @@ font-weight: 700;
 position: absolute;
 color: #1f1f1f;
 text-transform: uppercase;
-font-size: 2.3vh;
-line-height: 2.8vh;
-width: calc(116.85vh - 38vh);
-padding-left: 14vh;
-height: 21.76vh;
+font-size: 2.3vmin;
+line-height: 2.8vmin;
+width: calc(116.85vmin - 38vmin);
+padding-left: 14vmin;
+height: 21.76vmin;
 display: flex;
 align-items: center;
 letter-spacing: 1px;
@@ -332,18 +332,18 @@ letter-spacing: 1px;
 
 #test_progress_bar {
 	position: absolute;
-	top: 4vw;
-	left: 3vw;
+	top: 4vmax;
+	left: 3vmax;
 	display: flex;
-	width: 70vh;
+	width: 70vmin;
 }
 
 
 .question_bullet {
 	background-color: #5d71ba;
-	width: calc((70vh / 50) - 0.5vh);
-	height: calc((70vh / 50) - 0.5vh);
-	margin-right: 0.5vh;
+	width: calc((70vmin / 50) - 0.5vmin);
+	height: calc((70vmin / 50) - 0.5vmin);
+	margin-right: 0.5vmin;
 	border-radius: 100%;
 }
 
@@ -362,8 +362,8 @@ letter-spacing: 1px;
 	color: #95a8f0;
 	position: absolute;
 
-	top: 2vw;
-	left: 3vw;
+	top: 2vmax;
+	left: 3vmax;
 
 }
 
@@ -372,8 +372,8 @@ font-family: Lato;
 font-weight: 700;
 text-transform: uppercase;
 position: absolute;
-top: 5.2vw;
-left: 3vw;
+top: 5.2vmax;
+left: 3vmax;
 color: #e8e8e8;
 }
 
@@ -381,3 +381,10 @@ color: #e8e8e8;
 
 .desc_button {cursor: pointer}
 .desc_button.disabled {color: #acb4bf}
+
+
+
+.inpotrait {
+transform: rotate(-90deg);
+
+}

@@ -130,6 +130,79 @@ var arrQuestion = [
     0,  // indeks jawaban yang benar
     27, // comment 1 first indeks
     29 // comment 2 first indeks
+  ],
+  [ 10, // Question ID
+    '<span class="t_en">When Haruto and Ouka cooked ramen with stir-fried vegetables together, which vegetable did Haruto chop on his own?</span>', // q in en
+    '<span class="t_jp">悠人と凰香が2人で野菜炒め入りラーメンを作った際、悠人が切った野菜は？</span>', // q in jp
+    [ '<div class="answer_bottom">A</div><div class="answer_centering">Cabbage</div>',
+      '<div class="answer_bottom">B</div><div class="answer_centering">Carrot</div>',
+      '<div class="answer_bottom">C</div><div class="answer_centering">Mushroom</div>',
+      '<div class="answer_bottom">D</div><div class="answer_centering">Onion</div>'], // a in en
+
+    [ '<div class="answer_bottom">A</div><div class="answer_centering"><span class="t_jp">キャベツ</span></div>',
+      '<div class="answer_bottom">B</div><div class="answer_centering"><span class="t_jp">にんじん</span></div>',
+      '<div class="answer_bottom">C</div><div class="answer_centering"><span class="t_jp">マッシュルーム</span></div>',
+      '<div class="answer_bottom">D</div><div class="answer_centering"><span class="t_jp">玉ねぎ</span></div>'],  // a in jp
+    3,  // indeks jawaban yang benar
+    32, // comment 1 first indeks
+    33 // comment 2 first indeks
+  ],
+  [ 11, // Question ID
+    '<span class="t_en">What animal did Issa compare Haruto with, when Haruto struggled to stand up after sitting seiza-style for quite a long time?</span>', // q in en
+    '<span class="t_jp">悠人と凰香が2人で野菜炒め入りラーメンを作った際、悠人が切った野菜は？</span>', // q in jp
+    [ '<div class="answer_bottom">A</div><div class="answer_centering">Baby horse</div>',
+      '<div class="answer_bottom">B</div><div class="answer_centering">Baby elephant</div>',
+      '<div class="answer_bottom">C</div><div class="answer_centering">Baby whale</div>',
+      '<div class="answer_bottom">D</div><div class="answer_centering">Baby koala</div>'], // a in en
+
+    [ '<div class="answer_bottom">A</div><div class="answer_centering"><span class="t_jp">産まれたての小鹿</span></div>',
+      '<div class="answer_bottom">B</div><div class="answer_centering"><span class="t_jp">産まれたてのゾウ</span></div>',
+      '<div class="answer_bottom">C</div><div class="answer_centering"><span class="t_jp">産まれたてのクジラ</span></div>',
+      '<div class="answer_bottom">D</div><div class="answer_centering"><span class="t_jp">産まれたてのコアラ</span></div>'],  // a in jp
+    0,  // indeks jawaban yang benar
+    35, // comment 1 first indeks
+    37 // comment 2 first indeks
+  ],
+  [ 12, // Question ID
+    '<span class="t_en">Where did Haruto and Ruka not go together in their outing?</span>', // q in en
+    '<span class="t_jp">悠人とルカがおでかけで一緒に行かなかった場所は？</span>', // q in jp
+    [ '<div class="answer_bottom">A</div><div class="answer_centering">Movie teathre</div>',
+      '<div class="answer_bottom">B</div><div class="answer_centering">Collaboration cafe</div>',
+      '<div class="answer_bottom">C</div><div class="answer_centering">Boutique / clothes store</div>',
+      '<div class="answer_bottom">D</div><div class="answer_centering">Hot pot restaurant</div>'], // a in en
+
+    [ '<div class="answer_bottom">A</div><div class="answer_centering"><span class="t_jp">映画館</span></div>',
+      '<div class="answer_bottom">B</div><div class="answer_centering"><span class="t_jp">コラボカフェ</span></div>',
+      '<div class="answer_bottom">C</div><div class="answer_centering"><span class="t_jp">服屋</span></div>',
+      '<div class="answer_bottom">D</div><div class="answer_centering"><span class="t_jp">火鍋レストラン</span></div>'],  // a in jp
+    0,  // indeks jawaban yang benar
+    39, // comment 1 first indeks
+    40 // comment 2 first indeks
+  ],
+  [ 13, // Question ID
+    '<span class="t_en">In his outing with Futaba, Haruto told him that his sister works as...</span>', // q in en
+    '<span class="t_jp">二葉が出かけた際に悠人が話した、彼の姉の仕事は？</span>', // q in jp
+    [ '<div class="answer_bottom">A</div><div class="answer_centering">Policewoman</div>',
+      '<div class="answer_bottom">B</div><div class="answer_centering">Teacher</div>',
+      '<div class="answer_bottom">C</div><div class="answer_centering">Nurse</div>',
+      '<div class="answer_bottom">D</div><div class="answer_centering">Illustrator</div>'], // a in en
+
+    [ '<div class="answer_bottom">A</div><div class="answer_centering"><span class="t_jp">警察官</span></div>',
+      '<div class="answer_bottom">B</div><div class="answer_centering"><span class="t_jp">教師</span></div>',
+      '<div class="answer_bottom">C</div><div class="answer_centering"><span class="t_jp">看護師</span></div>',
+      '<div class="answer_bottom">D</div><div class="answer_centering"><span class="t_jp">イラストレーター</span></div>'],  // a in jp
+    2,  // indeks jawaban yang benar
+    42, // comment 1 first indeks
+    43 // comment 2 first indeks
+  ],
+  [ 14, // Question ID
+    '<span class="t_en">In an outing with Futaba and Gaku, Haruto admitted that he got a lot of offers to try acting.</span>', // q in en
+    '<span class="t_jp">二葉と岳との外出で、悠人は演技の仕事の打診が沢山来たと言っていた</span>', // q in jp
+    ['<div class="answer_centering">True</div>','<div class="answer_centering">False</div>'], // a in en
+    ['<div class="answer_centering"><i class="far fa-circle"></i></div>',' <div class="answer_centering"><i class="fas fa-times"></i></div>'],  // a in jp
+    1,  // indeks jawaban yang benar
+    45, // comment 1 first indeks
+    46 // comment 2 first indeks
   ]
 ];
 
@@ -356,6 +429,118 @@ var arrMessage = [
     '<span class="t_en">He loves the figurine decorations lol</span>', // msg in en
     '<span class="t_jp">あいつフィギュアの装飾とか好きらしいしな〜(笑)</span>', // msg in jp
     30, // id msg sebelumnya
+    -1, // id msg berikutnya
+  ],
+  [ 32, // indeks message
+    3, // Siapa yg ngomong 
+    '<span class="t_en">Oh, it should be onion. I think he asked me to teach him how to chop onions correctly afterwards… Wait, did he?</span>', // msg in en
+    '<span class="t_jp">これは玉ねぎだな。この後悠人から玉ねぎの正しい切り方を聞かれた覚えがある。……この時はどうしてたんだろうな…</span>', // msg in jp
+    -1, // id msg sebelumnya
+    -1, // id msg berikutnya
+  ],
+  [ 33, // indeks message
+    2, // Siapa yg ngomong 
+    '<span class="t_en">For Haruto and Ouka’s interaction, you can check <b>Bi-Color Season 2 Vol. 3 - Pearl x Sapphire.</b></span>', // msg in en
+    '<span class="t_jp">こ、このやり取りはbi-colorシリーズの2nd、Vol. 3 -Pearl x Sapphire-</span>', // msg in jp
+    -1, // id msg sebelumnya
+    34, // id msg berikutnya
+  ],
+  [ 34, // indeks message
+    2, // Siapa yg ngomong 
+    '<span class="t_en">I was worried about their cooking, but it turned out good so...</span>', // msg in en
+    '<span class="t_jp">で知ることができます！おいしくできた、と聞いているが……心配になるな…</span>', // msg in jp
+    33, // id msg sebelumnya
+    -1, // id msg berikutnya
+  ],
+  [ 35, // indeks message
+    1, // Siapa yg ngomong 
+    '<span class="t_en">Oh, Issa told me about this one. This guy actually said that...</span>', // msg in en
+    '<span class="t_jp">あ〜これ俺一紗から聞いたわ。</span>', // msg in jp
+    -1, // id msg sebelumnya
+    36, // id msg berikutnya
+  ],
+  [ 36, // indeks message
+    1, // Siapa yg ngomong 
+    '<span class="t_en">...being compared to a baby horse is an honor because it’s an elegant animal.</span>', // msg in en
+    '<span class="t_jp">優雅でわびさびのある動物だから名誉なことです、とか言ってたな、確か…</span>', // msg in jp
+    35, // id msg sebelumnya
+    -1, // id msg berikutnya
+  ],
+  [ 37, // indeks message
+    2, // Siapa yg ngomong 
+    '<span class="t_en">It’s really hard to understand you guys sometimes… But anyway, if it’s Haruto and Issa...</span>', // msg in en
+    '<span class="t_jp">時々本当に悠人のことがわからなくなるな……。</span>', // msg in jp
+    -1, // id msg sebelumnya
+    38, // id msg berikutnya
+  ],
+  [ 38, // indeks message
+    2, // Siapa yg ngomong 
+    '<span class="t_en">...then it should be in Bi Color Season 2 Vol. 4 - Sapphire x Ruby. Be sure to check it out.</span>', // msg in en
+    '<span class="t_jp">このやり取りは、bi-colorシリーズの2nd、Vol. 4 -Sapphire x Ruby-で聴くことができます。</span>', // msg in jp
+    37, // id msg sebelumnya
+    -1, // id msg berikutnya
+  ],
+  [ 39, // indeks message
+    4, // Siapa yg ngomong 
+    '<span class="t_en">We ate dinner made by Gakkun at night, so we didn’t go to the hot pot restaurant of course!</span>', // msg in en
+    '<span class="t_jp">夜はがっくんが作ってくれたご飯を食べたから外食はしなかったよ！</span>', // msg in jp
+    -1, // id msg sebelumnya
+    -1, // id msg berikutnya
+  ],
+  [ 40, // indeks message
+    2, // Siapa yg ngomong 
+    '<span class="t_en">The outing sounds fun…</span>', // msg in en
+    '<span class="t_jp">ルカや悠人と出かけるのは楽しそうだな……。</span>', // msg in jp
+    -1, // id msg sebelumnya
+    41, // id msg berikutnya
+  ],
+  [ 41, // indeks message
+    2, // Siapa yg ngomong 
+    '<span class="t_en">Oh, yes, this one was in <b>Bi-Color Season 3 Vol. 3 - Sapphire x Morganite.</b></span>', // msg in en
+    '<span class="t_jp">この内容はbi-colorシリーズの3rd、Vol. 3 -Sapphire x Morganite-で聴けますので、チェックしてみてください</span>', // msg in jp
+    40, // id msg sebelumnya
+    -1, // id msg berikutnya
+  ],
+  [ 42, // indeks message
+    0, // Siapa yg ngomong 
+    '<span class="t_en">She’s a nurse~</b></span>', // msg in en
+    '<span class="t_jp">悠人のお姉さんは看護師さんだよね</span>', // msg in jp
+    -1, // id msg sebelumnya
+    -1, // id msg berikutnya
+  ],
+  [ 43, // indeks message
+    2, // Siapa yg ngomong 
+    '<span class="t_en">I shouldn’t even be surprised that Sho knows, huh...  Haruto and Futaba’s outing was in...</b></span>', // msg in en
+    '<span class="t_jp">流石に翔は詳しいな。この内容はbi-colorシリーズの3rd、Vol. 3 -Topaz x Sapphire-で聴くことができます。</span>', // msg in jp
+    -1, // id msg sebelumnya
+    44, // id msg berikutnya
+  ],
+  [ 44, // indeks message
+    2, // Siapa yg ngomong 
+    '<span class="t_en">...Bi Color Season 3 Vol. 5 - Topaz x Sapphire. Haruto’s trick to ask Futaba out for the outing was interesting. </b></span>', // msg in en
+    '<span class="t_jp">是非。……それにしても、悠人が二葉を誘うのに使った方法は面白かったな</span>', // msg in jp
+    43, // id msg sebelumnya
+    -1, // id msg berikutnya
+  ],
+  [ 45, // indeks message
+    3, // Siapa yg ngomong 
+    '<span class="t_en">Ah, no. In fact, he said that he hardly got any offers for acting, despite wanting to try it out.</span>', // msg in en
+    '<span class="t_jp">これは……×だな。寧ろ、演技にチャレンジしてみたいのに中々オファーが来ないって言ってた。</span>', // msg in jp
+    -1, // id msg sebelumnya
+    -1, // id msg berikutnya
+  ],
+  [ 46, // indeks message
+    2, // Siapa yg ngomong 
+    '<span class="t_en">So he wants to try acting? This is news to me… Ah yes, apparently this one was in Play of Color Vol. 3 - “Let’s talk about the future together.” </span>', // msg in en
+    '<span class="t_jp">色々なことにチャレンジしようとする姿勢は凄いな。見習いたい。 この内容はPlay of ColorシリーズのVol.3 、</span>', // msg in jp
+    -1, // id msg sebelumnya
+    47, // id msg berikutnya
+  ],
+  [ 47, // indeks message
+    2, // Siapa yg ngomong 
+    '<span class="t_en">It’s a good Drama CD if you want to know about their worries and their plan to handle those.</span>', // msg in en
+    '<span class="t_jp">｢いつかの話を君としよう｣に収録されています、3人の悩みや対策を知りたい方にはオススメです</span>', // msg in jp
+    46, // id msg sebelumnya
     -1, // id msg berikutnya
   ]
 ];
