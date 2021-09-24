@@ -1,0 +1,307 @@
+html {
+	background-image: url(../images/background_pattern.jpg);
+	background-size: auto 20.74vh;
+	background-color: #344ea9;
+	background-position: center bottom;
+	background-repeat: repeat-x;
+	height: 100%;
+}
+
+#haruto_2021 {
+
+	background-image: url(../images/2018haruto_normal.PNG);
+	height: 100vh;
+	position: absolute;
+	top: 0;
+	left: 0vw;
+	width: 65vh;
+	background-size: contain;
+	background-position: center bottom;
+	background-repeat: no-repeat;
+}
+
+#question_holder {
+
+	position: absolute;
+	top: 5.74vh;
+	right: 0;
+	width: 116.85vh;
+	height: 21.76vh;
+	background-position: right center;
+	background-repeat: no-repeat;
+	background-size: contain;
+
+	background-image: url(../images/question_bg.png);
+}
+
+
+#answer_container {
+	position: absolute;
+	top: calc(5.74vh + 21.76vh + 4vh);
+	right: 0;
+	width: calc(116.85vh - 5.08vh);
+	height: 42.4vh;
+	padding-left: 5.08vh;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.answer_box {
+
+	position: relative;
+	width: 47.48vh;
+	height: 20.09vh;
+	background-image: url(../images/bg_answer_raw.jpg);
+	background-position: right 0.926vh;
+	background-size: 46.11vh 17.68vh;
+	background-repeat: no-repeat;
+	margin-right: 3vw;
+	margin-bottom: 1.04vw;
+
+	color: #e8e8e8;
+	font-family: Lato;
+	font-weight: 900;
+}
+
+.answer_bg {
+	position: absolute;
+top: 1vh;
+left: 0;
+width: 46.11vh;
+height: 17.68vh;
+background-color: #1f1f1f;
+transform: rotate(-4deg);
+transition: all 0.25s ease-in-out;
+cursor: pointer;
+
+}
+
+.answer_box:hover .answer_bg,  .answer_box.selected .answer_bg {
+background-color: #519fff;
+}
+
+
+.answer_centering {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 42.32vh;
+height: 19.53vh;
+position: absolute;
+z-index: 10;
+left: 1.8vh;
+top: 0.3vh;
+cursor: pointer;
+}
+
+.answer_bottom {
+	position: absolute;
+bottom: 1.5vh;
+left: 2vh;
+font-size: 3vh;
+}
+
+#hints_container {
+
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	width: calc(116.85vh - 5.08vh);
+	height: calc(100vh - (5.74vh + 21.76vh + 5vh + 42.4vh + 1.5vh));
+	padding-left: 5.08vh;
+	
+}
+
+#catto_buttons_container {
+	position: relative;
+	height: 9.26vh;
+}
+
+#catto_buttons_container .wording {
+	position: absolute;
+bottom: 2vh;
+background-color: #1f1f1f;
+color: #fff;
+font-family: Lato;
+font-weight: 700;
+font-style: italic;
+text-transform: uppercase;
+letter-spacing: 3px;
+width: 54vh;
+padding: 1.2vh;
+border-radius: 1vh;
+}
+
+.catto_buttons_list {
+	padding-left: 10.28vh;
+	display: flex;
+	position: relative;
+z-index: 5;
+}
+
+.catto_button {
+	background-color: #e8e8e8;
+	height: 7.4vh;
+	width: 7.4vh;
+	border-radius: 100%;
+	border: 5px solid #1f1f1f;
+	margin-right: 1.3vh;
+	background-position: left center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	transition: all 0.25s ease-in-out;
+	cursor: pointer;
+}
+
+.catto_button:hover {
+	border-color: #ee14a4;
+}
+
+.catto_button.selected {
+	border-color: #ee14a4;
+}
+
+#button_sho {
+	background-image: url(../images/Harunya-Catto-1.png);
+}
+
+#button_reiji {
+	background-image: url(../images/Harunya-Catto-3.png);
+}
+
+#button_ayumu {
+	background-image: url(../images/Harunya-Catto-2.png);
+}
+
+#button_gaku {
+	background-image: url(../images/Harunya-Catto-4.png);
+}
+
+#button_ruka {
+	background-image: url(../images/Harunya-Catto-5.png);
+}
+
+#the_big_catto{
+	position: absolute;
+	background-image: url(../images/Harunya-Catto-2.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+	left: 38vw;
+	bottom: 0;
+	background-position: center bottom;
+	height: 31vh;
+width: 35vh;
+}
+
+#hint_desc_container {
+	background-color: #e8e8e8;
+	position: absolute;
+	height: calc(20.74vh - 9.26vh);
+	width: 35vw;
+	bottom: 1.5vh;
+	border-radius: 1.5vh;
+	color: #000000;
+
+}
+
+#hint_desc_container::after {
+	content: "";
+width: 0;
+height: 0;
+border-top: 6vh solid transparent;
+border-bottom: 6vh solid transparent;
+border-left: 6vh solid #e8e8e8;
+position: absolute;
+right: -2vh;
+top: 0;
+}
+
+.hint_desc_buttons {
+	position: absolute;
+	bottom: 0.5vw;
+	left: 0.5vw;
+}
+
+.hint_desc_paragraph {
+	height: calc(20.74vh - 9.26vh - 20px);
+	width: calc(35vw - 60px);
+	padding: 10px 30px;
+	display: flex;
+	align-items: center;
+	font-family: Lato;
+	text-transform: uppercase;
+	font-size: 0.95vw;
+letter-spacing: 1px;
+}
+
+#question_progress {
+	color: #e8e8e8;
+font-family: Lato;
+font-weight: 900;
+position: absolute;
+top: 7.5vh;
+font-size: 4.5vh;
+line-height: 4.5vh;
+left: 1vh;
+}
+
+#question_maksimum {
+	color: #519fff;
+font-size: 2vh;
+padding-left: 2.8vh;
+line-height: 2vh;
+}
+
+#question_content {
+	font-family: Lato;
+font-weight: 700;
+position: absolute;
+color: #1f1f1f;
+text-transform: uppercase;
+font-size: 2.75vh;
+width: calc(116.85vh - 38vh);
+padding-left: 14vh;
+height: 21.76vh;
+display: flex;
+align-items: center;
+letter-spacing: 1px;
+}
+
+#test_progress_bar {
+	position: absolute;
+	top: 4vw;
+	left: 3vw;
+	display: flex;
+	width: 70vh;
+}
+
+
+.question_bullet {
+	background-color: #5d71ba;
+	width: calc((70vh / 50) - 0.5vh);
+	height: calc((70vh / 50) - 0.5vh);
+	margin-right: 0.5vh;
+	border-radius: 100%;
+}
+
+#test_progress_teks {
+	font-family: Lato;
+	font-weight: 400;
+	text-transform: uppercase;
+	color: #95a8f0;
+	position: absolute;
+
+	top: 2vw;
+	left: 3vw;
+
+}
+
+#tes_menu_bar {
+font-family: Lato;
+font-weight: 700;
+text-transform: uppercase;
+position: absolute;
+top: 5.2vw;
+left: 3vw;
+color: #e8e8e8;
+}
