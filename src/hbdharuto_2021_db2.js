@@ -372,9 +372,58 @@ var arrMessage = [
   ],
   [ 53, // indeks message
     2, // Siapa yg ngomong 
-    '<span class="t_en">...</a></span>', // msg in en
+    '<span class="t_en">...</span>', // msg in en
     '<span class="t_jp">...</span>', // msg in jp
     -1, // id msg sebelumnya
+    -1, // id msg berikutnya
+  ],
+  [ 54, // indeks message
+    0, // Siapa yg ngomong 
+    '<span class="t_en">It was Santa Claus (chuckles) that’s so cute...</span>', // msg in en
+    '<span class="t_jp">これは…サンタクロース、だよね。かわいいなあ</span>', // msg in jp
+    -1, // id msg sebelumnya
+    -1, // id msg berikutnya
+  ],
+  [ 55, // indeks message
+    2, // Siapa yg ngomong 
+    '<span class="t_en">Well, I can’t blame him for thinking that way considering this particular figure...</a></span>', // msg in en
+    '<span class="t_jp">煙突から侵入してくるという点ではそう思われても仕方がない…</span>', // msg in jp
+    -1, // id msg sebelumnya
+    56, // id msg berikutnya
+  ],
+  [ 56, // indeks message
+    2, // Siapa yg ngomong 
+    '<span class="t_en">...enters a house throught he chimney. The conversation can be found here → <a href="https://twitter.com/vazzrock_info/status/1161611860157722624">[Twitter]</a></span>', // msg in en
+    '<span class="t_jp">…のか？ → <a href="https://twitter.com/vazzrock_info/status/1161611860157722624">[Twitter]</a></span>', // msg in jp
+    55, // id msg sebelumnya
+    -1, // id msg berikutnya
+  ],
+  [ 57, // indeks message
+    4, // Siapa yg ngomong 
+    '<span class="t_en">Haha, it’s [Telegram]! But that kind of easy-to-read sentences is fun to read, y’know!</span>', // msg in en
+    '<span class="t_jp">俺これわかるよ！電報！でも電報みたいな文章って面白くて良いよね〜☆</span>', // msg in jp
+    -1, // id msg sebelumnya
+    -1, // id msg berikutnya
+  ],
+  [ 58, // indeks message
+    2, // Siapa yg ngomong 
+    '<span class="t_en">True, sometimes you just don’t have the energy to guess the hidden meanings…</span>', // msg in en
+    '<span class="t_jp">確かに、あまり長いと意図を読むのに苦労する時もあるだろうから……</a></span>', // msg in jp
+    -1, // id msg sebelumnya
+    59, // id msg berikutnya
+  ],
+  [ 59, // indeks message
+    2, // Siapa yg ngomong 
+    '<span class="t_en">I also want to keep my words easy to understand.</span>', // msg in en
+    '<span class="t_jp">俺もわかりやすい文章を心がけたい  </span>', // msg in jp
+    58, // id msg sebelumnya
+    60, // id msg berikutnya
+  ],
+  [ 60, // indeks message
+    4, // Siapa yg ngomong 
+    '<span class="t_en">I think you’re doing fine already, Ayumu! (<a href="https://twitter.com/vazzrock_info/status/1111997523739074560">[Twitter]</a>)</span>', // msg in en
+    '<span class="t_jp">歩くんは今のままで良いと思うよ！ (<a href="https://twitter.com/vazzrock_info/status/1111997523739074560">[Twitter]</a>)</span>', // msg in jp
+    59, // id msg sebelumnya
     -1, // id msg berikutnya
   ]
 ];

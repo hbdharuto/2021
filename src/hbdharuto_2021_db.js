@@ -244,6 +244,38 @@ var arrQuestion = [
     3,  // indeks jawaban yang benar
     52, // comment 1 first indeks
     53 // comment 2 first indeks
+  ],
+  [ 18, // Question ID
+    '<span class="t_en">When he was a kid, Haruto thought this figure was a subordinate from Iga:</span>', // q in en
+    '<span class="t_jp">悠人は子供の頃、何を伊賀の部下だと思っていた？</span>', // q in jp
+    [ '<div class="answer_bottom">A</div><div class="answer_centering">The Cupid</div>',
+      '<div class="answer_bottom">B</div><div class="answer_centering">Tooth Fairy</div>',
+      '<div class="answer_bottom">C</div><div class="answer_centering">Santa Claus</div>',
+      '<div class="answer_bottom">D</div><div class="answer_centering">Easter Bunny</div>'], // a in en
+
+    [ '<div class="answer_bottom">A</div><div class="answer_centering"><span class="t_jp">キューピッド</span></div>',
+      '<div class="answer_bottom">B</div><div class="answer_centering"><span class="t_jp">歯の妖精</span></div>',
+      '<div class="answer_bottom">C</div><div class="answer_centering"><span class="t_jp">サンタクロース</span></div>',
+      '<div class="answer_bottom">D</div><div class="answer_centering"><span class="t_jp">イースターバニー</span></div>'],  // a in jp
+    2,  // indeks jawaban yang benar
+    54, // comment 1 first indeks
+    55 // comment 2 first indeks
+  ],
+  [ 19, // Question ID
+    '<span class="t_en">A nickname Haruto got for the shortness and conciseness of his sentences:</span>', // q in en
+    '<span class="t_jp">文章の短さと簡素さから付けられた悠人のあだ名は？</span>', // q in jp
+    [ '<div class="answer_bottom">A</div><div class="answer_centering">Telegram</div>',
+      '<div class="answer_bottom">B</div><div class="answer_centering">Radio</div>',
+      '<div class="answer_bottom">C</div><div class="answer_centering">Motorcycle</div>',
+      '<div class="answer_bottom">D</div><div class="answer_centering">Jetplane</div>'], // a in en
+
+    [ '<div class="answer_bottom">A</div><div class="answer_centering"><span class="t_jp">電報</span></div>',
+      '<div class="answer_bottom">B</div><div class="answer_centering"><span class="t_jp">ラジオ</span></div>',
+      '<div class="answer_bottom">C</div><div class="answer_centering"><span class="t_jp">オートバイ</span></div>',
+      '<div class="answer_bottom">D</div><div class="answer_centering"><span class="t_jp">ジェット機</span></div>'],  // a in jp
+    0,  // indeks jawaban yang benar
+    57, // comment 1 first indeks
+    58 // comment 2 first indeks
   ]
 ];
 
