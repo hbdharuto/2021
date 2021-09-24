@@ -4,7 +4,9 @@ html {
 	background-color: #344ea9;
 	background-position: center bottom;
 	background-repeat: repeat-x;
-	height: 100%;
+	height:calc(100vh - calc(100vh - 100%));
+	width:calc(100vw - calc(100vw - 100%));
+	overflow: hidden;
 }
 
 .haruto_2021, .haruto_2020, .haruto_2018 {
@@ -76,7 +78,7 @@ html {
 	background-position: right center;
 	background-repeat: no-repeat;
 	background-size: contain;
-
+	z-index: 10;
 	background-image: url(../images/question_bg.png);
 }
 
@@ -336,6 +338,7 @@ letter-spacing: 1px;
 	left: 3vmax;
 	display: flex;
 	width: 70vmin;
+	z-index: 10;
 }
 
 
@@ -361,7 +364,7 @@ letter-spacing: 1px;
 	text-transform: uppercase;
 	color: #95a8f0;
 	position: absolute;
-
+	z-index: 10;
 	top: 2vmax;
 	left: 3vmax;
 
@@ -375,6 +378,7 @@ position: absolute;
 top: 5.2vmax;
 left: 3vmax;
 color: #e8e8e8;
+z-index: 10;
 }
 
 .t_jp {font-family: 'M PLUS 1p', sans-serif;}
@@ -382,4 +386,130 @@ color: #e8e8e8;
 .desc_button {cursor: pointer}
 .desc_button.disabled {color: #acb4bf}
 
+
+@media only screen and (max-width: 1279px) {
+
+	html {
+		height:calc(100vh - calc(100vh - 100%));
+		width:calc(100vw - calc(100vw - 100%));
+		overflow: hidden;
+	}
+ 	#question_holder {
+ 		    top: 15vmin;
+	    right: 0;
+	    width: 100%;
+	    height: 21.76vmin;
+ 	}
+
+ 	#test_progress_teks {
+ 		font-size: 3vmin;
+ 	}
+
+ 	#test_progress_bar {
+ 		top: 4.5vmax;
+	    width: calc(100vw - 6vmax);
+ 	}
+
+ 	.question_bullet {
+ 		width: calc(((100vw - 6vmax) / 50) - 0.5vmin);
+    	height: calc(((100vw - 6vmax) / 50) - 0.5vmin);
+ 	}
+
+ 	#tes_menu_bar {
+ 		top: 6vmax;
+ 		font-size: 2.5vmin;
+ 	}
+
+ 	#answer_container {
+ 		top: 22vh;
+	    right: 1.5vmin;
+	    width: 99%;
+	    padding-left: 0;
+ 	}
+
+ 	.answer_box {
+ 		width: calc(50% - 3vmax);
+ 		margin-right: 1.5vmax;
+    	margin-left: 1.5vmax;
+
+ 	}
+
+ 	#hints_container {
+ 		    bottom: 0;
+    z-index: 15;
+       width: calc(100vw - calc(100vw - 100%));
+    height: 48vh;
+    overflow: hidden;
+    padding-left: 0;
+ 	}
+
+ 	#catto_buttons_container .wording {
+ 		padding-left: 25vw;
+    width: calc(75vw - calc(100vw - 100%));
+    border-radius: 0;
+ 	}
+
+ 	.catto_buttons_list {
+ 		position: absolute;
+    right: 2vw;
+ 	}
+
+ 	.catto_button {
+    
+    height: 10vmin;
+    width: 10vmin;
+	}
+
+	.haruto_2021, .haruto_2020, .haruto_2018 {
+		width: 35vh;
+	}
+
+	.the_big_catto {
+		background-size: contain;
+    height: 40vh;
+    width: 45vw;
+    bottom: 0;
+    right: 0;
+    background-position: right bottom;
+    left: revert;
+	}
+
+	#hint_desc_container {
+		top: 9vh;
+    right: 2vw;
+    width: 45vw;
+    height: 19vh;
+    z-index: 20
+	}
+
+	#hint_desc_container::after {
+		right: 12vw;
+    top: revert;
+    bottom: -4vh;
+    transform: rotate(
+90deg);
+	}
+
+	.hint_desc_paragraph {
+		width: calc(45vw - 40px);
+    height: calc(19vh - 40px);
+    padding: 20px;
+    font-size: 25px;
+    line-height: 33px;
+	}
+
+	.hint_desc_buttons {
+		font-size: 30px;
+	}
+
+	.answer_centering {
+		    font-size: 28px;
+	}
+
+	#question_content {
+		padding: 0;
+    padding-left: 13.5vw;
+    width: calc(100% - 36vw);
+	}
+}
 
