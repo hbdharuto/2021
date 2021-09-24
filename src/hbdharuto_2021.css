@@ -7,9 +7,9 @@ html {
 	height: 100%;
 }
 
-#haruto_2021 {
+.haruto_2021, .haruto_2020, .haruto_2018 {
 
-	background-image: url(../images/2018haruto_normal.PNG);
+	
 	height: 100vh;
 	position: absolute;
 	top: 0;
@@ -18,7 +18,53 @@ html {
 	background-size: contain;
 	background-position: center bottom;
 	background-repeat: no-repeat;
+	opacity: 0;
 }
+
+.haruto_2021.selected, .haruto_2020.selected, .haruto_2018.selected {
+	opacity: 1;
+}
+
+.haruto_2018.haruto_normal {
+	background-image: url(../images/2018haruto_normal.PNG);
+	
+}
+
+.haruto_2020.haruto_normal {
+	background-image: url(../images/2020haruto_normal.PNG);
+}
+
+.haruto_2021.haruto_normal {
+	background-image: url(../images/2021haruto_normal.PNG);
+}
+
+
+.haruto_2018.haruto_correct {
+	background-image: url(../images/2018haruto_correct.PNG);
+	
+}
+
+.haruto_2020.haruto_correct {
+	background-image: url(../images/2020haruto_correct.PNG);
+}
+
+.haruto_2021.haruto_correct {
+	background-image: url(../images/2021haruto_correct.PNG);
+}
+
+.haruto_2018.haruto_incorrect {
+	background-image: url(../images/2018haruto_incorrect.PNG);
+	
+}
+
+.haruto_2020.haruto_incorrect {
+	background-image: url(../images/2020haruto_incorrect.PNG);
+}
+
+.haruto_2021.haruto_incorrect {
+	background-image: url(../images/2021haruto_incorrect.PNG);
+}
+
 
 #question_holder {
 
@@ -92,6 +138,8 @@ z-index: 10;
 left: 1.8vh;
 top: 0.3vh;
 cursor: pointer;
+text-transform: uppercase;
+letter-spacing: 1px;
 }
 
 .answer_bottom {
@@ -161,29 +209,29 @@ z-index: 5;
 	border-color: #ee14a4;
 }
 
-#button_sho {
+#button_0 {
 	background-image: url(../images/Harunya-Catto-1.png);
 }
 
-#button_reiji {
+#button_1 {
 	background-image: url(../images/Harunya-Catto-3.png);
 }
 
-#button_ayumu {
+#button_2 {
 	background-image: url(../images/Harunya-Catto-2.png);
 }
 
-#button_gaku {
+#button_3 {
 	background-image: url(../images/Harunya-Catto-4.png);
 }
 
-#button_ruka {
+#button_4 {
 	background-image: url(../images/Harunya-Catto-5.png);
 }
 
-#the_big_catto{
+.the_big_catto{
 	position: absolute;
-	background-image: url(../images/Harunya-Catto-2.png);
+	
 	background-repeat: no-repeat;
 	background-size: contain;
 	left: 38vw;
@@ -191,7 +239,21 @@ z-index: 5;
 	background-position: center bottom;
 	height: 31vh;
 width: 35vh;
+opacity: 0;
+transition:  all 0.5s ease-in-out;
 }
+
+.the_big_catto.selected {opacity: 1;}
+
+#big_0 {background-image: url(../images/Harunya-Catto-1.png);}
+
+#big_1 {background-image: url(../images/Harunya-Catto-3.png);}
+
+#big_2 {background-image: url(../images/Harunya-Catto-2.png);}
+
+#big_3 {background-image: url(../images/Harunya-Catto-4.png);}
+
+#big_4 {background-image: url(../images/Harunya-Catto-5.png);}
 
 #hint_desc_container {
 	background-color: #e8e8e8;
@@ -258,7 +320,8 @@ font-weight: 700;
 position: absolute;
 color: #1f1f1f;
 text-transform: uppercase;
-font-size: 2.75vh;
+font-size: 2.3vh;
+line-height: 2.8vh;
 width: calc(116.85vh - 38vh);
 padding-left: 14vh;
 height: 21.76vh;
@@ -284,6 +347,14 @@ letter-spacing: 1px;
 	border-radius: 100%;
 }
 
+.question_bullet.correct {
+	background-color: #ee14a4;
+}
+
+.question_bullet.incorrect {
+	background-color: #1f1f1f;
+}
+
 #test_progress_teks {
 	font-family: Lato;
 	font-weight: 400;
@@ -305,3 +376,8 @@ top: 5.2vw;
 left: 3vw;
 color: #e8e8e8;
 }
+
+.t_jp {font-family: 'M PLUS 1p', sans-serif;}
+
+.desc_button {cursor: pointer}
+.desc_button.disabled {color: #acb4bf}

@@ -16,8 +16,22 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@100;300;400;500;700;800;900&display=swap" rel="stylesheet"> 
 
+<link rel="preload" as="image" href="../images/2018haruto_normal.PNG">
+<link rel="preload" as="image" href="../images/2020haruto_normal.PNG">
+<link rel="preload" as="image" href="../images/2021haruto_normal.PNG">
+<link rel="preload" as="image" href="../images/2018haruto_correct.PNG">
+<link rel="preload" as="image" href="../images/2020haruto_correct.PNG">
+<link rel="preload" as="image" href="../images/2021haruto_correct.PNG">
+<link rel="preload" as="image" href="../images/2018haruto_incorrect.PNG">
+<link rel="preload" as="image" href="../images/2020haruto_incorrect.PNG">
+<link rel="preload" as="image" href=".../images/2021haruto_incorrect.PNG">
+
+
 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+<script src="src/hbdharuto_2021_db.js"></script>
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.9.2/jquery-ui.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.9.2/jquery.ui.effect-shake.min.js"></script>
@@ -30,40 +44,30 @@
 <div id="test_progress_bar"></div>
 <div id="tes_menu_bar">[Main Menu] [Language] [Mute]</div>
 
-<div id="haruto_2021"></div>
+<div class="haruto_2018 haruto_normal"></div>
+<div class="haruto_2018 haruto_incorrect"></div>
+<div class="haruto_2018 haruto_correct"></div>
+
+<div class="haruto_2020 haruto_normal"></div>
+<div class="haruto_2020 haruto_incorrect"></div>
+<div class="haruto_2020 haruto_correct"></div>
+
+<div class="haruto_2021 haruto_normal"></div>
+<div class="haruto_2021 haruto_incorrect"></div>
+<div class="haruto_2021 haruto_correct"></div>
 
 <div id="question_holder">
 
 <div id="question_progress">
-  <div id="question_current">15</div><div id="question_maksimum">/30</div>
+  <div id="question_current">1</div><div id="question_maksimum">/0</div>
 </div>
 <div id="question_content">
-  Who was the first person to call Haruto a [samurai]?
+  ?
 </div>
 </div>
 
 <div id="answer_container">
-<div class="answer_box">
-  <div class="answer_bg"></div>
-  <div class="answer_bottom">A</div>
-  <div class="answer_centering">test</div>
-</div>
-<div class="answer_box">
-  <div class="answer_bg"></div>
-  <div class="answer_bottom">B</div>
 
-
-</div>
-<div class="answer_box">
-  <div class="answer_bg"></div>
-  <div class="answer_bottom">C</div>
-
-</div>
-<div class="answer_box">
-  <div class="answer_bg"></div>
-  <div class="answer_bottom">D</div>
-
-</div>
 </div>
 
 <div id="hints_container">
@@ -71,25 +75,26 @@
 <div id="catto_buttons_container">
   <div class="wording">Hint:</div>
   <div class="catto_buttons_list">
-    <div class="catto_button" id="button_sho"></div>
-    <div class="catto_button" id="button_reiji"></div>
-    <div class="catto_button" id="button_ayumu"></div>
-    <div class="catto_button" id="button_gaku"></div>
-    <div class="catto_button" id="button_ruka"></div>
+    <div class="catto_button" id="button_0"></div>
+    <div class="catto_button" id="button_1"></div>
+    <div class="catto_button" id="button_2"></div>
+    <div class="catto_button" id="button_3"></div>
+    <div class="catto_button" id="button_4"></div>
   </div>
 
   
 </div>
 <div id="hint_desc_container">
 
-  <div class="hint_desc_buttons">
-    <span class="desc_button" id="desc_button_left"><i class="fas fa-caret-left"></i></span>
-    <span class="desc_button" id="desc_button_right"><i class="fas fa-caret-right"></i></span>
-  </div>
-  <div class="hint_desc_paragraph">wordings here</div>
+ 
+  <div class="hint_desc_paragraph">?</div>
 
 </div>
-<div id="the_big_catto"></div>
+<div class="the_big_catto" id="big_0"></div>
+<div class="the_big_catto" id="big_1"></div>
+<div class="the_big_catto" id="big_2"></div>
+<div class="the_big_catto" id="big_3"></div>
+<div class="the_big_catto" id="big_4"></div>
 </div>
 
 <script src="src/hbdharuto_2021.js"></script>
