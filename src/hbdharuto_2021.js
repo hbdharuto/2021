@@ -142,7 +142,11 @@ $("#question_maksimum").html('/' + arrQuestion.length);
 
 
 
-var newQuestionID = Math.floor(Math.random() * arrQuestion.length);
+var newQuestionID = Math.floor(Math.random() * arrQuestion.length);;
+
+while (arrAnswered.includes(newQuestionID)) {
+			 newQuestionID =  Math.floor(Math.random() * arrQuestion.length);
+		}
 
 loadQuestion(newQuestionID);
 
