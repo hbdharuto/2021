@@ -168,7 +168,7 @@ var arrMessage = [
     -1, // id msg berikutnya
   ],
   [ 24, // indeks message
-    3, // Siapa yg ngomong 
+    4, // Siapa yg ngomong 
     '<span class="t_en">I was in charge of Rock and Sho was of Vazz, sooo~ Haru-kun was the shower general!</span>', // msg in en
     '<span class="t_jp">俺がロックの担当、で翔くんがバズの担当！ハルくんはず〜〜〜〜っとシャワー大将でした！(笑)</span>', // msg in jp
     -1, // id msg sebelumnya
@@ -424,6 +424,265 @@ var arrMessage = [
     '<span class="t_en">I think you’re doing fine already, Ayumu! (<a href="https://twitter.com/vazzrock_info/status/1111997523739074560">[Twitter]</a>)</span>', // msg in en
     '<span class="t_jp">歩くんは今のままで良いと思うよ！ (<a href="https://twitter.com/vazzrock_info/status/1111997523739074560">[Twitter]</a>)</span>', // msg in jp
     59, // id msg sebelumnya
+    -1, // id msg berikutnya
+  ],
+  [ 61, // indeks message
+    0, // Siapa yg ngomong 
+    '<span class="t_en">Takaaki mentioned it when we were talking about Sunshine City~</span>', // msg in en
+    '<span class="t_jp">確かサンシャインシティの話をしていた時だったよね♪</span>', // msg in jp
+    -1, // id msg sebelumnya
+    -1, // id msg berikutnya
+  ],
+  [ 62, // indeks message
+    2, // Siapa yg ngomong 
+    '<span class="t_en">And he’s not wrong… The answer is over here → <a href="https://twitter.com/vazzrock_info/status/1059752717868908544">[Twitter]</a></span>', // msg in en
+    '<span class="t_jp">間違ってはいない……のか？このツイートから確認できます。是非 → <a href="https://twitter.com/vazzrock_info/status/1059752717868908544">[Twitter]</a></span>', // msg in jp
+    -1, // id msg sebelumnya
+    -1, // id msg berikutnya
+  ],
+  [ 63, // indeks message
+    4, // Siapa yg ngomong 
+    '<span class="t_en">I was the one who made the hotcake!!!</span>', // msg in en
+    '<span class="t_jp">ホットケーキでがっくんを作ったのは〜〜……俺で〜〜す！！！！！</span>', // msg in jp
+    -1, // id msg sebelumnya
+    -1, // id msg berikutnya
+  ],
+  [ 64, // indeks message
+    2, // Siapa yg ngomong 
+    '<span class="t_en">Haruto made a lot of food (<a href="https://twitter.com/vazzrock_info/status/1183372055980335104">here</a>). </span>', // msg in en
+    '<span class="t_jp">悠人は沢山岳を作った (<a href="https://twitter.com/vazzrock_info/status/1183372055980335104">[Twitter]</a>)</span>', // msg in jp
+    -1, // id msg sebelumnya
+    65, // id msg berikutnya
+  ],
+  [ 65, // indeks message
+    2, // Siapa yg ngomong 
+    '<span class="t_en">but one of them is made by someone else (<a href="https://twitter.com/vazzrock_info/status/1183373369640542208">here</a>).</span>', // msg in en
+    '<span class="t_jp">が… 選択肢のうちホットケーキはルカが作ったものだな (<a href="https://twitter.com/vazzrock_info/status/1183373369640542208">[Twitter]</a>)</span>', // msg in jp
+    64, // id msg sebelumnya
+    -1, // id msg berikutnya
+  ],
+  [ 66, // indeks message
+    0, // Siapa yg ngomong 
+    '<span class="t_en">I had work at that time, so...</span>', // msg in en
+    '<span class="t_jp">その日はヴァイオリンの仕事があって行けなかったんだ</span>', // msg in jp
+    -1, // id msg sebelumnya
+    -1, // id msg berikutnya
+  ],
+  [ 67, // indeks message
+    2, // Siapa yg ngomong 
+    '<span class="t_en">We can all go together the other time! But yes, we talked about the trip here → <a href="https://twitter.com/vazzrock_info/status/1215466114647379968 ">[Twitter]</a> </span>', // msg in en
+    '<span class="t_jp">今度は翔も一緒に皆で行こう → <a href="https://twitter.com/vazzrock_info/status/1059752717868908544">[Twitter]</a></span>', // msg in jp
+    -1, // id msg sebelumnya
+    -1, // id msg berikutnya
+  ],
+  [ 68, // indeks message
+    3, // Siapa yg ngomong 
+    '<span class="t_en">I think it’s Rudder Qiana~</span>', // msg in en
+    '<span class="t_jp">確かラダ・キアナだったよな</a></span>', // msg in jp
+    -1, // id msg sebelumnya
+    -1, // id msg berikutnya
+  ],
+  [ 69, // indeks message
+    2, // Siapa yg ngomong 
+    '<span class="t_en"> Yeah, Gaku isn’t wrong. Here’s the answer → <a href="https://twitter.com/vazzrock_info/status/1237670219318878208 ">[Twitter]</a> </span>', // msg in en
+    '<span class="t_jp">そうだな。これがその時のツイートだ → <a href="https://twitter.com/vazzrock_info/status/1237670219318878208">[Twitter]</a></span>', // msg in jp
+    -1, // id msg sebelumnya
+    -1, // id msg berikutnya
+  ],
+  [ 70, // indeks message
+    1, // Siapa yg ngomong 
+    '<span class="t_en">Oh yeah that’s true. I’m so tempted to have him watch some ghost movies...</span>', // msg in en
+    '<span class="t_jp">答えは○。ホラー見せたらどんな反応するかはちょっと興味あるけどな</span>', // msg in jp
+    -1, // id msg sebelumnya
+    71, // id msg berikutnya
+  ],
+  [ 71, // indeks message
+    2, // Siapa yg ngomong 
+    '<span class="t_en">You clearly knows he mentioned he’s not okay with that <a href="https://twitter.com/vazzrock_info/status/1274301527369240577">here</a>!!!</span>', // msg in en
+    '<span class="t_jp"><a href="https://twitter.com/vazzrock_info/status/1274301527369240577">悠人本人が苦手だって言ってるだろう。</a> お前はどうしてそう人をからかいたがるんだ…</span>', // msg in jp
+    70, // id msg sebelumnya
+    72, // id msg berikutnya
+  ],
+  [ 72, // indeks message
+    2, // Siapa yg ngomong 
+    '<span class="t_en"> Why do you keep teasing people like that, Reiji?!</span>', // msg in en
+    '<span class="t_jp">…俺まで怖くなってきた</span>', // msg in jp
+    71, // id msg sebelumnya
+    73, // id msg berikutnya
+  ],
+  [ 73, // indeks message
+    1, // Siapa yg ngomong 
+    '<span class="t_en">Hey, I wanted to tease him, not you!</span>', // msg in en
+    '<span class="t_jp">人ってか悠人｢を｣だったんだけどな…</span>', // msg in jp
+    72, // id msg sebelumnya
+    74, // id msg berikutnya
+  ],
+  [ 74, // indeks message
+    1, // Siapa yg ngomong 
+    '<span class="t_en">Why are you being scared too??</span>', // msg in en
+    '<span class="t_jp">…なんでお前まで怖がってんだよ</span>', // msg in jp
+    73, // id msg sebelumnya
+    -1, // id msg berikutnya
+  ],
+  [ 75, // indeks message
+    2, // Siapa yg ngomong 
+    '<span class="t_en">...</span>', // msg in en
+    '<span class="t_jp">...</a></span>', // msg in jp
+    -1, // id msg sebelumnya
+    -1, // id msg berikutnya
+  ],
+  [ 76, // indeks message
+    1, // Siapa yg ngomong 
+    '<span class="t_en">It’s C. With old men colors too.</span>', // msg in en
+    '<span class="t_jp">はいC。ちなみにおやじ色な</a></span>', // msg in jp
+    -1, // id msg sebelumnya
+    -1, // id msg berikutnya
+  ],
+  [ 77, // indeks message
+    2, // Siapa yg ngomong 
+    '<span class="t_en">You’re really specific about this one… But yes, <a href="https://twitter.com/vazzrock_info/status/1242637346106826753">he’s not wrong</a>.</span>', // msg in en
+    '<span class="t_jp">こうして見ると結構細かい分類があるんだな…… (<a href="https://twitter.com/vazzrock_info/status/1242637346106826753">[Twitter]</a>)</span>', // msg in jp
+    -1, // id msg sebelumnya
+    -1, // id msg berikutnya
+  ],
+  [ 78, // indeks message
+    1, // Siapa yg ngomong 
+    '<span class="t_en">WHAT’S WITH ALL THESE OPTIONS??? Uh, it should be Big Bang, I think.</span>', // msg in en
+    '<span class="t_jp">なんでこれにこんな選択肢あるんだよ。あ〜〜……もうビッグバンで良いや。しかもこいつしっかり当たるからな。叫ぶ暇あるなら避けろよ</span>', // msg in jp
+    -1, // id msg sebelumnya
+    -1, // id msg berikutnya
+  ],
+  [ 79, // indeks message
+    2, // Siapa yg ngomong 
+    '<span class="t_en"><a href="https://twitter.com/vazzrock_info/status/1279446839054307331">The answer is here…</a> but why a washbasin????</span>', // msg in en
+    '<span class="t_jp">正解ツイートはこれだが……そもそも何故タライが降ってくるんだ……？ (<a href="https://twitter.com/vazzrock_info/status/1279446839054307331">[Twitter]</a>)</span>', // msg in jp
+    -1, // id msg sebelumnya
+    -1, // id msg berikutnya
+  ],
+  [ 80, // indeks message
+    0, // Siapa yg ngomong 
+    '<span class="t_en">He did. That way of talking is just like him...</span>', // msg in en
+    '<span class="t_jp">…話してました(笑) こういうてらいの無さは、悠人の良いところだよね</span>', // msg in jp
+    -1, // id msg sebelumnya
+    -1, // id msg berikutnya
+  ],
+  [ 81, // indeks message
+    2, // Siapa yg ngomong 
+    '<span class="t_en"><a href="https://twitter.com/vazzrock_info/status/1286359811085352965">It’s this time, right?</a> Me too, I’m glad you’re our leader, Sho.</span>', // msg in en
+    '<span class="t_jp"><a href="https://twitter.com/vazzrock_info/status/1286359811085352965">この時だな。</a>……俺も、翔がリーダーで良かったと思う</span>', // msg in jp
+    -1, // id msg sebelumnya
+    82, // id msg berikutnya
+  ],
+  [ 82, // indeks message
+    0, // Siapa yg ngomong 
+    '<span class="t_en">Thank you, Ayumu ♪ </span>', // msg in en
+    '<span class="t_jp">ふふ、ありがとう、歩♪</a>)</span>', // msg in jp
+    81, // id msg sebelumnya
+    -1, // id msg berikutnya
+  ],
+  [ 83, // indeks message
+    3, // Siapa yg ngomong 
+    '<span class="t_en">It was koala! If he imitated hedgehog wouldn’t I get prickled? (lol)</span>', // msg in en
+    '<span class="t_jp">怖がって人にくっついてるのがコアラに似てるんだよな、ハリネズミはチクチクしそうだ(笑)</span>', // msg in jp
+    -1, // id msg sebelumnya
+    -1, // id msg berikutnya
+  ],
+  [ 84, // indeks message
+    2, // Siapa yg ngomong 
+    '<span class="t_en">A--and I can’t blame him! <a href="https://twitter.com/vazzrock_info/status/1292707017891516416">Sho was really scary here!!!</a></span>', // msg in en
+    '<span class="t_jp"><a href="https://twitter.com/vazzrock_info/status/1292707017891516416">でもあの時の翔は怖かったからな、</a>悠人の気持ちもわかる……)</span>', // msg in jp
+    -1, // id msg sebelumnya
+    -1, // id msg berikutnya
+  ],
+  [ 85, // indeks message
+    4, // Siapa yg ngomong 
+    '<span class="t_en">36 degree… I mean I can understand his reason BUT STILL?!</span>', // msg in en
+    '<span class="t_jp">言いたいことはわかるけど……それでも……独特だね、ハルくん……良いと思う！</span>', // msg in jp
+    -1, // id msg sebelumnya
+    -1, // id msg berikutnya
+  ],
+  [ 86, // indeks message
+    2, // Siapa yg ngomong 
+    '<span class="t_en">Yeah, he’s not wrong but I feel like he’s...wrong too in a way… (<a href="https://twitter.com/vazzrock_info/status/1293895754562465794">[Twitter]</a>)</span>', // msg in en
+    '<span class="t_jp">ああ、間違ってはいないんだが……なんだか色々な意味で間違っている気はするな…… (<a href="https://twitter.com/vazzrock_info/status/1293895754562465794">[Twitter]</a>)</span>', // msg in jp
+    -1, // id msg sebelumnya
+    -1, // id msg berikutnya
+  ],
+  [ 87, // indeks message
+    4, // Siapa yg ngomong 
+    '<span class="t_en">He wanted to make it like… [ha]ruto and [na]ruto, so...</span>', // msg in en
+    '<span class="t_jp">｢はると｣と｢なると｣って似てるから……らしいよ☆</span>', // msg in jp
+    -1, // id msg sebelumnya
+    -1, // id msg berikutnya
+  ],
+  [ 88, // indeks message
+    2, // Siapa yg ngomong 
+    '<span class="t_en">As always I’m amazed by his way of thinking. (<a href="https://twitter.com/vazzrock_info/status/1339603473583591424">[Twitter]</a>)</span>', // msg in en
+    '<span class="t_jp">いつものことながら……悠人の思考回路には驚かされるな (<a href="https://twitter.com/vazzrock_info/status/1339603473583591424">[Twitter]</a>)</span>', // msg in jp
+    -1, // id msg sebelumnya
+    -1, // id msg berikutnya
+  ],
+  [ 89, // indeks message
+    4, // Siapa yg ngomong 
+    '<span class="t_en">Twintails! I think he would be so cute, but sadly Reiji didn’t agree :(</span>', // msg in en
+    '<span class="t_jp">俺は良いと思うんだけど〜……玲司くんは乗ってくれなかったね……</span>', // msg in jp
+    -1, // id msg sebelumnya
+    90, // id msg berikutnya
+  ],
+  [ 90, // indeks message
+    2, // Siapa yg ngomong 
+    '<span class="t_en"> I mean, you may look good in it, Ruka, but Haruto… (<a href="https://twitter.com/vazzrock_info/status/1357496663208693761">[Twitter]</a>)</span>', // msg in en
+    '<span class="t_jp">ルカと悠人では大分雰囲気も違うからな…… (<a href="https://twitter.com/vazzrock_info/status/1357496663208693761">[Twitter]</a>)</span>', // msg in jp
+    89, // id msg sebelumnya
+    -1, // id msg berikutnya
+  ],
+  [ 91, // indeks message
+    1, // Siapa yg ngomong 
+    '<span class="t_en">He did sing a song once… It’s not “sleep-talking” anymore, it’s “sleep-singing”</span>', // msg in en
+    '<span class="t_jp">あれどっから寝てたんだろうな。その場合はもう寝起きってか寝言じゃね？</span>', // msg in jp
+    -1, // id msg sebelumnya
+    -1, // id msg berikutnya
+  ],
+  [ 92, // indeks message
+    2, // Siapa yg ngomong 
+    '<span class="t_en">But It was kind of cute, I think. Oh, there were two tweets about this: <a href="https://twitter.com/vazzrock_info/status/1351187736296906752">[1]</a> <a href="https://twitter.com/vazzrock_info/status/1351189371853139969">[2]</a></span>', // msg in en
+    '<span class="t_jp">でも、少し可愛かったと思う。あの時の悠人 <a href="https://twitter.com/vazzrock_info/status/1351187736296906752">[1]</a> <a href="https://twitter.com/vazzrock_info/status/1351189371853139969">[2]</a></span>', // msg in jp
+    -1, // id msg sebelumnya
+    93, // id msg berikutnya
+  ],
+  [ 93, // indeks message
+    1, // Siapa yg ngomong 
+    '<span class="t_en">...for real?</span>', // msg in en
+    '<span class="t_jp">マジ？</span>', // msg in jp
+    92, // id msg sebelumnya
+    -1, // id msg berikutnya
+  ],
+  [ 94, // indeks message
+    0, // Siapa yg ngomong 
+    '<span class="t_en">I don’t remember You being there...</span>', // msg in en
+    '<span class="t_jp">確か……陽がいなかったような。あっ、これダジャレだね。ふふ</span>', // msg in jp
+    -1, // id msg sebelumnya
+    -1, // id msg berikutnya
+  ],
+  [ 95, // indeks message
+    2, // Siapa yg ngomong 
+    '<span class="t_en">There were several tweets about this, but I think they’re all worth reading. Here I’ll list them for you: <a href="https://twitter.com/tsukiuta1/status/1385548149096284160">[1]</a> <a href="https://twitter.com/tsukiuta1/status/1385549684693864448">[2]</a> <a href="https://twitter.com/tsukiuta1/status/1385552123320946688">[3]</a> <a href="https://twitter.com/tsukiuta1/status/1385552975024644102">[4]</a> <a href="https://twitter.com/vazzrock_info/status/1385553594531815445">[5]</a></span>', // msg in en
+    '<span class="t_jp">そ、そうだな…………。その時のことは、この辺りのツイートから知ることができますので、チェックしてみてください <a href="https://twitter.com/tsukiuta1/status/1385548149096284160">[1]</a> <a href="https://twitter.com/tsukiuta1/status/1385549684693864448">[2]</a> <a href="https://twitter.com/tsukiuta1/status/1385552123320946688">[3]</a> <a href="https://twitter.com/tsukiuta1/status/1385552975024644102">[4]</a> <a href="https://twitter.com/vazzrock_info/status/1385553594531815445">[5]</a></span>', // msg in jp
+    -1, // id msg sebelumnya
+    -1, // id msg berikutnya
+  ],
+  [ 96, // indeks message
+    4, // Siapa yg ngomong 
+    '<span class="t_en">It was the inro, actually! (Still, WHY?!)</span>', // msg in en
+    '<span class="t_jp">正解は印籠らしいです！(笑) それでもなんで！？って感じだけど！</span>', // msg in jp
+    -1, // id msg sebelumnya
+    -1, // id msg berikutnya
+  ],
+  [ 97, // indeks message
+    2, // Siapa yg ngomong 
+    '<span class="t_en">I can get that he wanted to be admired like that, but still… (<a href="https://twitter.com/vazzrock_info/status/1356613173839806465">[Twitter]</a>)</span>', // msg in en
+    '<span class="t_jp">ひれ伏すのは印籠が偉いからだと思っていたからだそうだ…… (<a href="https://twitter.com/vazzrock_info/status/1356613173839806465">[Twitter]</a>)</span>', // msg in jp
+    -1, // id msg sebelumnya
     -1, // id msg berikutnya
   ]
 ];

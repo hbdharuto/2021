@@ -7,6 +7,8 @@ html {
 	height:calc(100vh - calc(100vh - 100%));
 	width:calc(100vw - calc(100vw - 100%));
 	overflow: hidden;
+	min-height: 720px;
+	min-width: 1280px;
 }
 
 .hint_desc_paragraph a {
@@ -404,6 +406,9 @@ z-index: 10;
 		height:calc(100vh - calc(100vh - 100%));
 		width:calc(100vw - calc(100vw - 100%));
 		overflow: hidden;
+
+		min-width: 720px;
+		min-height: 1280px;
 
 		aspect-ratio: 9 / 16;
 	}

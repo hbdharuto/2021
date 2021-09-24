@@ -276,7 +276,220 @@ var arrQuestion = [
     0,  // indeks jawaban yang benar
     57, // comment 1 first indeks
     58 // comment 2 first indeks
+  ],
+  [ 20, // Question ID
+    '<span class="t_en">Which Vazzy members said that the word [sunshine] reminds him of Haruto in many ways?</span>', // q in en
+    '<span class="t_jp">｢太陽｣と聞いて悠人を思い出すと言っていたVAZZYのメンバーは？</span>', // q in jp
+    [ '<div class="answer_bottom">A</div><div class="answer_centering">Takaaki</div>',
+      '<div class="answer_bottom">B</div><div class="answer_centering">Ouka</div>',
+      '<div class="answer_bottom">C</div><div class="answer_centering">Issa</div>',
+      '<div class="answer_bottom">D</div><div class="answer_centering">Futaba</div>'], // a in en
+
+    [ '<div class="answer_bottom">A</div><div class="answer_centering"><span class="t_jp">孝明</span></div>',
+      '<div class="answer_bottom">B</div><div class="answer_centering"><span class="t_jp">凰香</span></div>',
+      '<div class="answer_bottom">C</div><div class="answer_centering"><span class="t_jp">一紗</span></div>',
+      '<div class="answer_bottom">D</div><div class="answer_centering"><span class="t_jp">二葉</span></div>'],  // a in jp
+    0,  // indeks jawaban yang benar
+    61, // comment 1 first indeks
+    62 // comment 2 first indeks
+  ],
+  [ 21, // Question ID
+    '<span class="t_en">Which food Haruto did not make “a Gaku of…” in Gaku’s birthday?</span>', // q in en
+    '<span class="t_jp">岳の誕生日に悠人が作らなかった岳モチーフの料理は？</span>', // q in jp
+    [ '<div class="answer_bottom">A</div><div class="answer_centering">Pastry Bread</div>',
+      '<div class="answer_bottom">B</div><div class="answer_centering">Rice</div>',
+      '<div class="answer_bottom">C</div><div class="answer_centering">Instant Noodle</div>',
+      '<div class="answer_bottom">D</div><div class="answer_centering">Hotcake</div>'], // a in en
+
+    [ '<div class="answer_bottom">A</div><div class="answer_centering"><span class="t_jp">菓子パン</span></div>',
+      '<div class="answer_bottom">B</div><div class="answer_centering"><span class="t_jp">お米</span></div>',
+      '<div class="answer_bottom">C</div><div class="answer_centering"><span class="t_jp">インスタント麺</span></div>',
+      '<div class="answer_bottom">D</div><div class="answer_centering"><span class="t_jp">ホットケーキ</span></div>'],  // a in jp
+    3,  // indeks jawaban yang benar
+    63, // comment 1 first indeks
+    64 // comment 2 first indeks
+  ],
+  [ 22, // Question ID
+    '<span class="t_en">Who did not go with Haruto to Disneyland?</span>', // q in en
+    '<span class="t_jp">悠人と一緒に｢ネズミ年にちなんだテーマパーク｣に行かなかったのは？</span>', // q in jp
+    [ '<div class="answer_bottom">A</div><div class="answer_centering">Sho</div>',
+      '<div class="answer_bottom">B</div><div class="answer_centering">Reiji</div>',
+      '<div class="answer_bottom">C</div><div class="answer_centering">Ayumu</div>',
+      '<div class="answer_bottom">D</div><div class="answer_centering">Nao</div>'], // a in en
+
+    [ '<div class="answer_bottom">A</div><div class="answer_centering"><span class="t_jp">翔</span></div>',
+      '<div class="answer_bottom">B</div><div class="answer_centering"><span class="t_jp">玲司</span></div>',
+      '<div class="answer_bottom">C</div><div class="answer_centering"><span class="t_jp">歩</span></div>',
+      '<div class="answer_bottom">D</div><div class="answer_centering"><span class="t_jp">直助</span></div>'],  // a in jp
+    0,  // indeks jawaban yang benar
+    66, // comment 1 first indeks
+    67 // comment 2 first indeks
+  ],
+  [ 23, // Question ID
+    '<span class="t_en">Which GROWTH song is Haruto’s favorite?</span>', // q in en
+    '<span class="t_jp">悠人が好きなGrowthの曲は？</span>', // q in jp
+    [ '<div class="answer_bottom">A</div><div class="answer_centering">Mahou no Kizuna</div>',
+      '<div class="answer_bottom">B</div><div class="answer_centering">Rudder Qiana</div>',
+      '<div class="answer_bottom">C</div><div class="answer_centering">Fushichou no Nebula</div>',
+      '<div class="answer_bottom">D</div><div class="answer_centering">Moonlight Refrain</div>'], // a in en
+
+    [ '<div class="answer_bottom">A</div><div class="answer_centering"><span class="t_jp">魔法のキズナ</span></div>',
+      '<div class="answer_bottom">B</div><div class="answer_centering"><span class="t_jp">ラダ・キアナ</span></div>',
+      '<div class="answer_bottom">C</div><div class="answer_centering"><span class="t_jp">不死鳥のネビュラ</span></div>',
+      '<div class="answer_bottom">D</div><div class="answer_centering"><span class="t_jp">月影のリフレイン</span></div>'],  // a in jp
+    1,  // indeks jawaban yang benar
+    68, // comment 1 first indeks
+    69 // comment 2 first indeks
+  ],
+  [ 24, // Question ID
+    '<span class="t_en">True or false, while Haruto is not okay with ghosts, he loves aliens and monsters.</span>', // q in en
+    '<span class="t_jp">悠人はお化けや幽霊は苦手だが、宇宙人や怪獣は好きらしい</span>', // q in jp
+    ['<div class="answer_centering">True</div>','<div class="answer_centering">False</div>'], // a in en
+    ['<div class="answer_centering"><i class="far fa-circle"></i></div>',' <div class="answer_centering"><i class="fas fa-times"></i></div>'],  // a in jp
+    0,  // indeks jawaban yang benar
+    70, // comment 1 first indeks
+    75 // comment 2 first indeks
+  ],
+  [ 25, // Question ID
+    '<span class="t_en">What does Haruto wear to sleep?</span>', // q in en
+    '<span class="t_jp">悠人が就寝時に着ているものは？</span>', // q in jp
+   [ '<div class="answer_bottom">A</div><div class="answer_centering">Gelato Pique pajamas</div>',
+      '<div class="answer_bottom">B</div><div class="answer_centering">Normal pajamas</div>',
+      '<div class="answer_bottom">C</div><div class="answer_centering">Sweats and/or jersey</div>',
+      '<div class="answer_bottom">D</div><div class="answer_centering">Whatever he likes</div>'], // a in en
+
+    [ '<div class="answer_bottom">A</div><div class="answer_centering"><span class="t_jp">ジェラピケのパジャマ</span></div>',
+      '<div class="answer_bottom">B</div><div class="answer_centering"><span class="t_jp">普通のパジャマ</span></div>',
+      '<div class="answer_bottom">C</div><div class="answer_centering"><span class="t_jp">スウェット・ジャージ</span></div>',
+      '<div class="answer_bottom">D</div><div class="answer_centering"><span class="t_jp">なんでも</span></div>'],  // a in jp
+    2,  // indeks jawaban yang benar
+    76, // comment 1 first indeks
+    77 // comment 2 first indeks
+  ],
+  [ 26, // Question ID
+    '<span class="t_en">What will Haruto yell if he gets hit by a washbasin?</span>', // q in en
+    '<span class="t_jp">不意にタライが落ちてきた！悠人ならなんと言う？</span>', // q in jp
+   [ '<div class="answer_bottom">A</div><div class="answer_centering">“WASHBASIN BARRAGE PUNCH!”</div>',
+      '<div class="answer_bottom">B</div><div class="answer_centering">“WASHBASIN TRAIN WRECK!”</div>',
+      '<div class="answer_bottom">C</div><div class="answer_centering">“WASHBASIN METEOR FALLS!”</div>',
+      '<div class="answer_bottom">D</div><div class="answer_centering">“WASHBASIN BIG BANG!”</div>'], // a in en
+
+    [ '<div class="answer_bottom">A</div><div class="answer_centering"><span class="t_jp">タライのパンチ！！！</span></div>',
+      '<div class="answer_bottom">B</div><div class="answer_centering"><span class="t_jp">タライで大惨事！！！</span></div>',
+      '<div class="answer_bottom">C</div><div class="answer_centering"><span class="t_jp">タライ流星群！！！</span></div>',
+      '<div class="answer_bottom">D</div><div class="answer_centering"><span class="t_jp">タライでビックバン！！！</span></div>'],  // a in jp
+    3,  // indeks jawaban yang benar
+    78, // comment 1 first indeks
+    79 // comment 2 first indeks
+  ],
+  [ 27, // Question ID
+    '<span class="t_en">Haruto never encouraged Sho about his insecurities regarding his leadership.</span>', // q in en
+    '<span class="t_jp">悠人は翔のリーダーとしての悩みを聞いたことがない</span>', // q in jp
+    ['<div class="answer_centering">True</div>','<div class="answer_centering">False</div>'], // a in en
+    ['<div class="answer_centering"><i class="far fa-circle"></i></div>',' <div class="answer_centering"><i class="fas fa-times"></i></div>'],  // a in jp
+    1,  // indeks jawaban yang benar
+    80, // comment 1 first indeks
+    81 // comment 2 first indeks
+  ],
+  [ 28, // Question ID
+    '<span class="t_en">What animal did Haruto imitate when he was scared?</span>', // q in en
+    '<span class="t_jp">怖がっている時の悠人は何に似ている？</span>', // q in jp
+   [ '<div class="answer_bottom">A</div><div class="answer_centering">Whale</div>',
+      '<div class="answer_bottom">B</div><div class="answer_centering">Sheep</div>',
+      '<div class="answer_bottom">C</div><div class="answer_centering">Koala</div>',
+      '<div class="answer_bottom">D</div><div class="answer_centering">Hedgehog</div>'], // a in en
+
+    [ '<div class="answer_bottom">A</div><div class="answer_centering"><span class="t_jp">クジラ</span></div>',
+      '<div class="answer_bottom">B</div><div class="answer_centering"><span class="t_jp">羊</span></div>',
+      '<div class="answer_bottom">C</div><div class="answer_centering"><span class="t_jp">コアラ</span></div>',
+      '<div class="answer_bottom">D</div><div class="answer_centering"><span class="t_jp">ハリネズミ</span></div>'],  // a in jp
+    2,  // indeks jawaban yang benar
+    83, // comment 1 first indeks
+    84 // comment 2 first indeks
+  ],
+  [ 29, // Question ID
+    '<span class="t_en">At which degree (in Celcius) of heat would Haruto feel like he’s being hugged?</span>', // q in en
+    '<span class="t_jp">悠人が｢抱きしめられている｣と感じる温度は？</span>', // q in jp
+   [ '<div class="answer_bottom">A</div><div class="answer_centering">36℃</div>',
+      '<div class="answer_bottom">B</div><div class="answer_centering">38℃</div>',
+      '<div class="answer_bottom">C</div><div class="answer_centering">40℃</div>',
+      '<div class="answer_bottom">D</div><div class="answer_centering">42℃</div>'], // a in en
+
+    [ '<div class="answer_bottom">A</div><div class="answer_centering"><span class="t_jp">36℃</span></div>',
+      '<div class="answer_bottom">B</div><div class="answer_centering"><span class="t_jp">38℃</span></div>',
+      '<div class="answer_bottom">C</div><div class="answer_centering"><span class="t_jp">40℃</span></div>',
+      '<div class="answer_bottom">D</div><div class="answer_centering"><span class="t_jp">42℃</span></div>'],  // a in jp
+    0,  // indeks jawaban yang benar
+    85, // comment 1 first indeks
+    86 // comment 2 first indeks
+  ],
+  [ 30, // Question ID
+    '<span class="t_en">What does Haruto commonly put in his Kujikanya?</span>', // q in en
+    '<span class="t_jp">悠人が｢くじかにゃー｣の頭に入れる絵文字といえば？</span>', // q in jp
+   [ '<div class="answer_bottom">A</div><div class="answer_centering">Ribbon 🎀</div>',
+      '<div class="answer_bottom">B</div><div class="answer_centering">Naruto 🍥</div>',
+      '<div class="answer_bottom">C</div><div class="answer_centering">Sakura 🌸</div>',
+      '<div class="answer_bottom">D</div><div class="answer_centering">Fish 🐟</div>'], // a in en
+
+    [ '<div class="answer_bottom">A</div><div class="answer_centering"><span class="t_jp">リボン 🎀</span></div>',
+      '<div class="answer_bottom">B</div><div class="answer_centering"><span class="t_jp">ナルト 🍥</span></div>',
+      '<div class="answer_bottom">C</div><div class="answer_centering"><span class="t_jp">桜 🌸</span></div>',
+      '<div class="answer_bottom">D</div><div class="answer_centering"><span class="t_jp">魚 🐟</span></div>'],  // a in jp
+    1,  // indeks jawaban yang benar
+    87, // comment 1 first indeks
+    88 // comment 2 first indeks
+  ],
+  [ 31, // Question ID
+    '<span class="t_en">What kind of hairstyle does Haruto want to try?</span>', // q in en
+    '<span class="t_jp">悠人がしてみたいヘアアレンジは？</span>', // q in jp
+   [ '<div class="answer_bottom">A</div><div class="answer_centering">Braid</div>',
+      '<div class="answer_bottom">B</div><div class="answer_centering">Ponytail</div>',
+      '<div class="answer_bottom">C</div><div class="answer_centering">Twintails</div>',
+      '<div class="answer_bottom">D</div><div class="answer_centering">Bun</div>'], // a in en
+
+    [ '<div class="answer_bottom">A</div><div class="answer_centering"><span class="t_jp">三つ編み</span></div>',
+      '<div class="answer_bottom">B</div><div class="answer_centering"><span class="t_jp">ポニーテール</span></div>',
+      '<div class="answer_bottom">C</div><div class="answer_centering"><span class="t_jp">ツインテール</span></div>',
+      '<div class="answer_bottom">D</div><div class="answer_centering"><span class="t_jp">おだんご</span></div>'],  // a in jp
+    2,  // indeks jawaban yang benar
+    89, // comment 1 first indeks
+    90 // comment 2 first indeks
+  ],
+  [ 32, // Question ID
+    '<span class="t_en">True or false, Haruto might sing in his sleep.</span>', // q in en
+    '<span class="t_jp">悠人は寝起きに歌うことがある</span>', // q in jp
+    ['<div class="answer_centering">True</div>','<div class="answer_centering">False</div>'], // a in en
+    ['<div class="answer_centering"><i class="far fa-circle"></i></div>',' <div class="answer_centering"><i class="fas fa-times"></i></div>'],  // a in jp
+    0,  // indeks jawaban yang benar
+    91, // comment 1 first indeks
+    92 // comment 2 first indeks
+  ],
+  [ 33, // Question ID
+    '<span class="t_en">Which Tsukiuta members Haruto did not add to his contact list at the same time?</span>', // q in en
+    '<span class="t_jp">悠人のアドレス帳にいないツキウタ。メンバーは？</span>', // q in jp
+   [ '<div class="answer_bottom">A</div><div class="answer_centering">Hajime</div>',
+      '<div class="answer_bottom">B</div><div class="answer_centering">Arata</div>',
+      '<div class="answer_bottom">C</div><div class="answer_centering">You</div>',
+      '<div class="answer_bottom">D</div><div class="answer_centering">Iku</div>'], // a in en
+
+    [ '<div class="answer_bottom">A</div><div class="answer_centering"><span class="t_jp">始</span></div>',
+      '<div class="answer_bottom">B</div><div class="answer_centering"><span class="t_jp">新</span></div>',
+      '<div class="answer_bottom">C</div><div class="answer_centering"><span class="t_jp">陽</span></div>',
+      '<div class="answer_bottom">D</div><div class="answer_centering"><span class="t_jp">郁</span></div>'],  // a in jp
+    2,  // indeks jawaban yang benar
+    94, // comment 1 first indeks
+    95 // comment 2 first indeks
+  ],
+  [ 34, // Question ID
+    '<span class="t_en">True or false, Haruto’s childhood dream was to become Mito Koumon’s sword.</span>', // q in en
+    '<span class="t_jp">悠人の幼少期の夢は水戸黄門の刀になることだった</span>', // q in jp
+    ['<div class="answer_centering">True</div>','<div class="answer_centering">False</div>'], // a in en
+    ['<div class="answer_centering"><i class="far fa-circle"></i></div>',' <div class="answer_centering"><i class="fas fa-times"></i></div>'],  // a in jp
+    1,  // indeks jawaban yang benar
+    96, // comment 1 first indeks
+    97 // comment 2 first indeks
   ]
+
 ];
 
 
