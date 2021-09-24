@@ -15,6 +15,8 @@ $("#test_progress_bar").append('<div class="question_bullet" id="question_'+i+'"
 
 function reviewResult() {
 
+
+
 	console.log("You made " + arrCorrectAnswer.length + " correct answer out of " + arrAnswered.length + " questions.");
 }
 
@@ -31,7 +33,7 @@ function gotoNewQuestion() {
 	resetHint();
 
 
-	if (curQuestionProg < arrQuestion.length) {
+	if (parseInt(localStorage.getItem("hbdHawwu2021_curQuestionProg")) < arrQuestion.length) {
 
 
 		
@@ -40,8 +42,9 @@ function gotoNewQuestion() {
 			 newQuestionID =  Math.floor(Math.random() * arrQuestion.length);
 		}
 
-		curQuestionProg = curQuestionProg + 1;
-		$("#question_current").html(curQuestionProg);
+		localStorage.setItem("hbdHawwu2021_curQuestionProg", (parseInt(localStorage.getItem("hbdHawwu2021_curQuestionProg")) + 1));
+		
+		$("#question_current").html(localStorage.getItem("hbdHawwu2021_curQuestionProg"));
 		loadQuestion(newQuestionID);
 
 		}
@@ -57,7 +60,7 @@ function gotoNewQuestion() {
 
 function loadQuestion(questionID) {
 
-	if (curLang == 0) {
+	if (localStorage.getItem("hbdHawwu2021_appLanguage") == 0) {
 		// first, add question
 	 	$("#question_content").html(arrQuestion[questionID][1]);
 	 	// then, add the array of answers
@@ -91,44 +94,59 @@ function loadQuestion(questionID) {
 			// correct answer
 			console.log("your answer is correct!");
 			arrCorrectAnswer[arrCorrectAnswer.length] = questionID;
+			localStorage.setItem("hbdHawwu2021_arrCorrectAnswer", JSON.stringify(arrCorrectAnswer));
+
+			arrListRightWrong[arrListRightWrong.length] = 1;
+			localStorage.setItem("hbdHawwu2021_listRightWrong", JSON.stringify(arrListRightWrong));
+
+			$(this).addClass("selected");
 
 			$(".haruto_normal").removeClass("selected");
 			$(".haruto_incorrect").removeClass("selected");
 			$(".haruto_correct").removeClass("selected");
-			$(".haruto_" + curHawwu + ".haruto_correct").addClass("selected");
+			$(".haruto_" + localStorage.getItem("hbdHawwu2021_curHawwu") + ".haruto_correct").addClass("selected");
 
-			$("#question_" + (curQuestionProg - 1)).addClass("correct");
+			$("#question_" + (parseInt(localStorage.getItem("hbdHawwu2021_curQuestionProg")) - 1)).addClass("correct");
 
 		}
 
 		else {
 			// wrong answer
 			console.log("your answer is wrong!");
+			$(this).removeClass("selected");
+			$(this).addClass("wrong");
+
+			arrListRightWrong[arrListRightWrong.length] = 0;
+			localStorage.setItem("hbdHawwu2021_listRightWrong", JSON.stringify(arrListRightWrong));
+			
 			$(".haruto_normal").removeClass("selected");
 			$(".haruto_incorrect").removeClass("selected");
 			$(".haruto_correct").removeClass("selected");
-			$(".haruto_" + curHawwu + ".haruto_incorrect").addClass("selected");
-			$("#question_" + (curQuestionProg - 1)).addClass("incorrect");
+			$(".haruto_" + localStorage.getItem("hbdHawwu2021_curHawwu") + ".haruto_incorrect").addClass("selected");
+			$("#question_" + (parseInt(localStorage.getItem("hbdHawwu2021_curQuestionProg")) - 1)).addClass("incorrect");
 		}
 
 		arrAnswered[arrAnswered.length] = questionID;
+		localStorage.setItem("hbdHawwu2021_arrAnswered", JSON.stringify(arrAnswered));
 
-		gotoNewQuestion();
+		$(this).effect( "shake", { direction: "up", times: 3, distance: 6}, 1000 );
+
+		setTimeout(function() { gotoNewQuestion(); }, 1000);
 
 	});
 
 }
 
-
+$("#question_current").html(localStorage.getItem("hbdHawwu2021_curQuestionProg"));
 $("#question_maksimum").html('/' + arrQuestion.length);
 
-var curQuestionProg = 1;
+
 
 var newQuestionID = Math.floor(Math.random() * arrQuestion.length);
 
 loadQuestion(newQuestionID);
 
-$(".haruto_" + curHawwu + ".haruto_normal").addClass("selected");
+$(".haruto_" + localStorage.getItem("hbdHawwu2021_curHawwu") + ".haruto_normal").addClass("selected");
 
 
 
@@ -152,7 +170,7 @@ function loadMessage(messageID) {
  	 $("#hint_desc_container").html('<div class="hint_desc_paragraph"></div>');
 	 $("#hint_desc_paragraph").html("...");
 	 
-	 if (curLang == 0) {
+	 if (localStorage.getItem("hbdHawwu2021_appLanguage") == 0) {
 	 	$(".hint_desc_paragraph").html(arrMessage[messageID][2]);
 	 }
 	 else {
@@ -215,4 +233,15 @@ $(".catto_button").click(function() {
 
 
 
+for (var j = 0; j < arrListRightWrong.length; j++) {
+  if (arrListRightWrong[j] == 0) {
+      // shade black
+      $("#question_" + j).addClass("incorrect");
+  }
 
+  else {
+      // shade red
+      $("#question_" + j).addClass("correct");
+  }
+
+}
