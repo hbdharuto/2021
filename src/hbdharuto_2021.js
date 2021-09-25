@@ -1,4 +1,30 @@
 
+function harutoEvolve () {
+
+arrCorrectAnswer = JSON.parse(localStorage.getItem("hbdHawwu2021_arrCorrectAnswer"));
+
+	if ((localStorage.getItem("hbdHawwu2021_curHawwu") == "2018") && (arrCorrectAnswer.length == 20) ) {
+			//// evolving scene;
+			
+
+
+			localStorage.setItem("hbdHawwu2021_curHawwu", 2020);
+
+
+
+			$(".haruto_" + localStorage.getItem("hbdHawwu2021_curHawwu") + ".haruto_correct").addClass("selected");
+	}
+
+	else if ((localStorage.getItem("hbdHawwu2021_curHawwu") == "2020") && (arrCorrectAnswer.length == 40) ) {
+			//// how to evolve;
+			localStorage.setItem("hbdHawwu2021_curHawwu", 2021);
+			$(".haruto_" + localStorage.getItem("hbdHawwu2021_curHawwu") + ".haruto_correct").addClass("selected");
+	}
+
+
+}
+
+
 for (var i = 0; i < 50; i ++) {
 
 $("#test_progress_bar").append('<div class="question_bullet" id="question_'+i+'"></div>');
@@ -32,7 +58,7 @@ function resetHint(){
 function gotoNewQuestion() {
 
 	resetHint();
-
+	harutoEvolve ();
 
 	if (parseInt(localStorage.getItem("hbdHawwu2021_curQuestionProg")) < arrQuestion.length) {
 
@@ -61,7 +87,7 @@ function gotoNewQuestion() {
 
 function loadQuestion(questionID) {
 
-	if (localStorage.getItem("hbdHawwu2021_appLanguage") == 0) {
+	if (localStorage.getItem("hbdHawwu2021_appLanguage") == "0") {
 		// first, add question
 	 	$("#question_content").html(arrQuestion[questionID][1]);
 	 	// then, add the array of answers
@@ -143,7 +169,8 @@ $("#question_maksimum").html('/' + arrQuestion.length);
 
 
 
-var newQuestionID = Math.floor(Math.random() * arrQuestion.length);;
+function continueGame() {
+	newQuestionID = Math.floor(Math.random() * arrQuestion.length);
 
 while (arrAnswered.includes(newQuestionID)) {
 			 newQuestionID =  Math.floor(Math.random() * arrQuestion.length);
@@ -152,6 +179,41 @@ while (arrAnswered.includes(newQuestionID)) {
 loadQuestion(newQuestionID);
 
 $(".haruto_" + localStorage.getItem("hbdHawwu2021_curHawwu") + ".haruto_normal").addClass("selected");
+}
+
+function newGame() {
+	localStorage.removeItem("hbdHawwu2021_arrAnswered");
+	arrAnswered = [];
+
+	localStorage.removeItem("hbdHawwu2021_arrCorrectAnswer");
+	arrCorrectAnswer = [];
+
+	localStorage.removeItem("hbdHawwu2021_listRightWrong");
+	arrListRightWrong = [];
+
+	localStorage.setItem("hbdHawwu2021_curQuestionProg", 1); 
+	localStorage.setItem("hbdHawwu2021_curHawwu", 2018);
+
+newQuestionID = Math.floor(Math.random() * arrQuestion.length);
+
+while (arrAnswered.includes(newQuestionID)) {
+			 newQuestionID =  Math.floor(Math.random() * arrQuestion.length);
+		}
+
+loadQuestion(newQuestionID);
+
+$(".haruto_" + localStorage.getItem("hbdHawwu2021_curHawwu") + ".haruto_normal").addClass("selected");
+
+$("#question_current").html(1);
+
+$("#question_maksimum").html('/' + arrQuestion.length);
+
+$(".question_bullet").removeClass("correct");
+	
+$(".question_bullet").removeClass("incorrect");
+}
+
+continueGame();
 
 
 
@@ -175,7 +237,7 @@ function loadMessage(messageID) {
  	 $("#hint_desc_container").html('<div class="hint_desc_paragraph"></div>');
 	 $("#hint_desc_paragraph").html("...");
 	 
-	 if (localStorage.getItem("hbdHawwu2021_appLanguage") == 0) {
+	 if (localStorage.getItem("hbdHawwu2021_appLanguage") == "0") {
 	 	$(".hint_desc_paragraph").html(arrMessage[messageID][2]);
 	 }
 	 else {
@@ -252,4 +314,56 @@ for (var j = 0; j < arrListRightWrong.length; j++) {
 }
 
 
-screen.orientation.lock("landscape");
+$("#menu_continue").click(function() {
+  $('.window_holder').fadeOut();
+  $("#main_game").fadeIn();
+  continueGame();
+});
+
+$("#menu_newgame").click(function() {
+  $('.window_holder').fadeOut();
+  $("#main_game").fadeIn();
+  newGame();
+});
+
+$("#menu_langsel").click(function() {
+  $('.window_holder').fadeOut();
+  $("#main_language").fadeIn();
+});
+
+$("#menu_credits").click(function() {
+  $('.window_holder').fadeOut();
+  $("#main_credits").fadeIn();
+});
+
+$(".backto_main").click(function() {
+  $('.window_holder').fadeOut();
+  $("#main_welcome").fadeIn();
+});
+
+$(".open_lang").click(function() {
+  $('.window_holder').fadeOut();
+  $("#main_language").fadeIn();
+});
+
+$("#menu_sel_en").click(function() {
+ localStorage.setItem("hbdHawwu2021_appLanguage", 0); 
+ $('.window_holder').fadeOut();
+  $("#main_welcome").fadeIn();
+
+  continueGame();
+});
+
+$("#menu_sel_jp").click(function() {
+  localStorage.setItem("hbdHawwu2021_appLanguage", 1); 
+  $('.window_holder').fadeOut();
+  $("#main_welcome").fadeIn();
+
+   continueGame();
+});
+
+
+
+
+
+

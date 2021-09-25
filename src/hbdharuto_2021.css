@@ -13,17 +13,13 @@ body {
 	margin: 0px;
 }
 
-.bodyfleks {
-transform: rotate(-90deg);
-	display: flex;
-	justify-content: center;
-	align-items: center;
-}
+
 
 #wrapper {
 	position: relative;
 	min-height: 720px;
 	min-width: 1280px;
+
 	background-image: url(../images/background_pattern.jpg);
 	background-size: auto 224px;
 	background-color: #344ea9;
@@ -434,7 +430,102 @@ position: relative;
 display: none;
 }
 
- #main_game {display: block;}
+ #main_welcome {display: block;}
+
+.nyobacenter_lagi .inner > div {
+	width: 60vw;
+	position: absolute;
+	
+	right: 0;
+	font-family: Lato;
+	font-weight: 900;
+	text-transform: uppercase;
+	color: #ebebeb;
+	text-align: right;
+padding-right: 40px;
+}
+
+.welcome_title {
+	
+	font-size: 32px;
+	text-align: left!important;
+	
+	line-height: 40px;
+	top: 30px;
+	letter-spacing: 2px;
+}
+
+.purpose_title {
+color: #eb91df!important;
+bottom: 75px;
+text-align: right;
+font-size: 20px;
+padding-right: 40px;
+letter-spacing: 2px;
+line-height: 20px;
+}
+
+.presented_by {
+bottom: 55px;
+letter-spacing: 1px;
+font-size: 12px;
+line-height: 12px;
+}
+
+.almamater_jir {
+color: #519fff!important;
+bottom: 30px;
+letter-spacing: 1px;
+font-size: 10px;
+line-height: 10px;
+}
+
+.welcome_menus_container {
+	text-align: left!important;
+	letter-spacing: 2px;
+	bottom: 20px;
+	font-size: 18px;
+	line-height: 28px;
+	z-index: 20;
+}
+
+.welcome_menus {
+	margin: 0;
+	color: #eb91df;
+	cursor: pointer;
+	z-index: 20;
+}
+
+.welcome_menus_container a {
+	color: #eb91df!important;
+	text-decoration: none!important;
+}
+
+.welcome_menus:hover {
+	color: #519fff;
+}
+
+.nyobacenter_lagi .inner{
+	height: 510px;
+	position: relative;
+	width: 100%;
+}
+
+
+#main_language .nyobacenter_lagi .inner, #main_credits .nyobacenter_lagi .inner {
+	height: 300px;
+}
+
+
+.nyobacenter_lagi {
+	display: flex;
+	height: calc(100vh - 164px);
+	align-items: center;
+}
+
+#tes_menu_bar {
+	cursor: pointer;
+}
 
  @media screen and (min-width: 320px) and (max-width: 1279px) and (orientation: portrait) {
   html {
@@ -473,6 +564,18 @@ display: none;
     position: absolute;
     height: 500px;
     width: 100vh;
+}
+
+.nyobacenter_lagi {
+    display: flex;
+    height: calc(100vw - 164px);
+    justify-content: center;
+    align-items: center;
+}
+
+.nyobacenter_lagi .inner {
+	width: 1000px;
+	padding-left: 50px;
 }
 }
 
