@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <title>Introductions to Kujikawa Haruto</title>
   <link rel="stylesheet" href="src/hbdharuto_2021.css" type="text/css" media="screen">
+  <link rel="manifest" href="manifest.json">
   <script
         src="https://code.jquery.com/jquery-2.2.4.min.js"
         integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
@@ -30,11 +31,7 @@
 </head>
 <body>
 
-
-<div id="test_progress_teks">Your Progress</div>
-<div id="test_progress_bar"></div>
-<div id="tes_menu_bar">[Main Menu] [Language] </div>
-
+<div id="wrapper">
 <div class="haruto_2018 haruto_normal"></div>
 <div class="haruto_2018 haruto_incorrect"></div>
 <div class="haruto_2018 haruto_correct"></div>
@@ -47,47 +44,66 @@
 <div class="haruto_2021 haruto_incorrect"></div>
 <div class="haruto_2021 haruto_correct"></div>
 
-<div id="question_holder">
+<div id="main_game" class="window_holder">
 
-<div id="question_progress">
-  <div id="question_current">1</div><div id="question_maksimum">/0</div>
-</div>
-<div id="question_content">
-  ...
-</div>
-</div>
+  <div id="test_progress_teks">Your Progress</div>
+  <div id="test_progress_bar"></div>
+  <div id="tes_menu_bar">[Main Menu] [Language] </div>
 
-<div id="answer_container">
 
-</div>
 
-<div id="hints_container">
+  <div id="fleksed_div"><div class="inner">
+  <div id="question_holder">
 
-<div id="catto_buttons_container">
-  <div class="wording">Hint</div>
-  <div class="catto_buttons_list">
-    <div class="catto_button" id="button_0"></div>
-    <div class="catto_button" id="button_1"></div>
-    <div class="catto_button" id="button_2"></div>
-    <div class="catto_button" id="button_3"></div>
-    <div class="catto_button" id="button_4"></div>
+    <div id="question_progress">
+      <div id="question_current">1</div><div id="question_maksimum">/0</div>
+    </div>
+    <div id="question_content">
+      ...
+    </div>
   </div>
 
-  
-</div>
-<div id="hint_desc_container">
+  <div id="answer_container">
 
- 
-  <div class="hint_desc_paragraph">...</div>
+  </div>
+</div></div>
+  <div id="hints_container">
+    <div id="catto_buttons_container">
+      <div class="wording">Hint</div>
+      <div class="catto_buttons_list">
+        <div class="catto_button" id="button_0"></div>
+        <div class="catto_button" id="button_1"></div>
+        <div class="catto_button" id="button_2"></div>
+        <div class="catto_button" id="button_3"></div>
+        <div class="catto_button" id="button_4"></div>
+      </div>
+    </div>
+    <div id="hint_desc_container">
+     
+      <div class="hint_desc_paragraph">...</div>
 
-</div>
-<div class="the_big_catto" id="big_0"></div>
-<div class="the_big_catto" id="big_1"></div>
-<div class="the_big_catto" id="big_2"></div>
-<div class="the_big_catto" id="big_3"></div>
-<div class="the_big_catto" id="big_4"></div>
+    </div>
+    <div class="the_big_catto" id="big_0"></div>
+    <div class="the_big_catto" id="big_1"></div>
+    <div class="the_big_catto" id="big_2"></div>
+    <div class="the_big_catto" id="big_3"></div>
+    <div class="the_big_catto" id="big_4"></div>
+    <div class="the_big_catto selected" id="big_5"></div>
+  </div>
 </div>
 
+<div id="main_welcome" class="window_holder">
+  welcome menus here
+</div>
+
+<div id="main_language" class="window_holder">
+language selector here
+</div>
+
+<div id="main_credits" class="window_holder">
+main credits
+</div>
+</div>
 <script src="src/hbdharuto_2021.js"></script>
 </body>
 </html>

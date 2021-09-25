@@ -1,34 +1,14 @@
 html {
-	
-	height:100vh;
-	width:100vw;
-	overflow: hidden;
-	min-height: 680px;
-	min-width: 1280px;
-
-	background-color: #000;
-}
-
-body {
-	margin: 0px;
-}
-
-.bodyfleks {
-transform: rotate(-90deg);
-	display: flex;
-	justify-content: center;
-	align-items: center;
-}
-
-#wrapper {
-	position: relative;
-	min-height: 720px;
-	min-width: 1280px;
 	background-image: url(../images/background_pattern.jpg);
-	background-size: auto 224px;
+	background-size: auto 20.74vmin;
 	background-color: #344ea9;
 	background-position: center bottom;
 	background-repeat: repeat-x;
+	height:calc(100vh - calc(100vh - 100%));
+	width:calc(100vw - calc(100vw - 100%));
+	overflow: hidden;
+	min-height: 720px;
+	min-width: 1280px;
 }
 
 .hint_desc_paragraph a {
@@ -40,11 +20,11 @@ transform: rotate(-90deg);
 .haruto_2021, .haruto_2020, .haruto_2018 {
 
 	
-	height: 100vh;;
+	height: calc(100vmin - calc(100vmin - 100%));
 	position: absolute;
 	top: 0;
-	left: 0;
-	width: 460px;
+	left: 0vmax;
+	width: 65vmin;
 	background-size: contain;
 	background-position: center bottom;
 	background-repeat: no-repeat;
@@ -99,10 +79,10 @@ transform: rotate(-90deg);
 #question_holder {
 
 	position: absolute;
-	top: 15px;
+	top: 3.74vmin;
 	right: 0;
-	width: 800px;
-	height: 150px;
+	width: 116.85vmin;
+	height: 21.76vmin;
 	background-position: right center;
 	background-repeat: no-repeat;
 	background-size: contain;
@@ -113,11 +93,11 @@ transform: rotate(-90deg);
 
 #answer_container {
 	position: absolute;
-	top: 190px;
+	top: calc(3.74vmin + 21.76vmin + 4vmin);
 	right: 0;
-	width: 760px;
-	height: 300px;
-	padding-left: 40px;
+	width: calc(116.85vmin - 5.08vmin);
+	height: 42.4vmin;
+	padding-left: 5.08vmin;
 	display: flex;
 	flex-wrap: wrap;
 }
@@ -125,14 +105,14 @@ transform: rotate(-90deg);
 .answer_box {
 
 	position: relative;
-	width: 320px;
-	height: 130px;
+	width: 47.48vmin;
+	height: 20.09vmin;
 	background-image: url(../images/bg_answer_raw.jpg);
-	background-position: right 6.3px;
-	background-size: 315px 120px;
+	background-position: right 0.926vmin;
+	background-size: 46.11vmin 17.68vmin;
 	background-repeat: no-repeat;
-	margin-right: 30px;
-	margin-bottom: 15px;
+	margin-right: 3vmax;
+	margin-bottom: 1.04vmax;
 
 	color: #e8e8e8;
 	font-family: Lato;
@@ -141,10 +121,10 @@ transform: rotate(-90deg);
 
 .answer_bg {
 	position: absolute;
-top: 5px;
+top: 1vmin;
 left: 0;
-width: 315px;
-height: 120px;
+width: 46.11vmin;
+height: 17.68vmin;
 background-color: #1f1f1f;
 transform: rotate(-4deg);
 transition: all 0.25s ease-in-out;
@@ -165,12 +145,12 @@ background-color: #e00748;
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	width: 290px;
-height: 130px;
+	width: 42.32vmin;
+height: 19.53vmin;
 position: absolute;
 z-index: 10;
-left: 12px;
-top: 2px;
+left: 1.8vmin;
+top: 0.3vmin;
 cursor: pointer;
 text-transform: uppercase;
 letter-spacing: 1px;
@@ -178,31 +158,30 @@ letter-spacing: 1px;
 
 .answer_bottom {
 	position: absolute;
-bottom: 10px;
-left: 12px;
-font-size: 21px;
+bottom: 1.5vmin;
+left: 2vmin;
+font-size: 3vmin;
 }
 
 #hints_container {
 
 	position: absolute;
-	bottom: 0px;
+	bottom: 0;
 	right: 0;
-	width: 760px;
-	height: 28vh;
-	padding-left: 30px;
+	width: calc(116.85vmin - 5.08vmin);
+	height: calc(100vmin - (5.74vmin + 21.76vmin + 4vmin + 42.4vmin));
+	padding-left: 5.08vmin;
 	
 }
 
 #catto_buttons_container {
-	position: absolute;
-	height: 65px;
-	bottom: 125px;
+	position: relative;
+	height: 9.26vmin;
 }
 
 #catto_buttons_container .wording {
 	position: absolute;
-bottom: 15px;
+bottom: 2vmin;
 background-color: #1f1f1f;
 color: #fff;
 font-family: Lato;
@@ -210,13 +189,13 @@ font-weight: 700;
 font-style: italic;
 text-transform: uppercase;
 letter-spacing: 3px;
-width: 370px;
-padding: 10px;
-border-radius: 10px;
+width: 54vmin;
+padding: 1.2vmin;
+border-radius: 1vmin;
 }
 
 .catto_buttons_list {
-	padding-left: 70px;
+	padding-left: 10.28vmin;
 	display: flex;
 	position: relative;
 z-index: 5;
@@ -224,11 +203,11 @@ z-index: 5;
 
 .catto_button {
 	background-color: #e8e8e8;
-	height: 50px;
-	width: 50px;
+	height: 7.4vmin;
+	width: 7.4vmin;
 	border-radius: 100%;
 	border: 5px solid #1f1f1f;
-	margin-right: 10px;
+	margin-right: 1.3vmin;
 	background-position: left center;
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -269,11 +248,11 @@ z-index: 5;
 	
 	background-repeat: no-repeat;
 	background-size: contain;
-	right: 20px;
+	left: 38vmax;
 	bottom: 0;
-	background-position: right bottom;
-	height: 210px;
-width: 520px;
+	background-position: center bottom;
+	height: 31vmin;
+width: 35vmin;
 opacity: 0;
 
 }
@@ -290,16 +269,13 @@ opacity: 0;
 
 #big_4 {background-image: url(../images/Harunya-Catto-5.png);}
 
-#big_5 {background-image: url(../images/Harunya-Catto-Conan.png);}
-
-
 #hint_desc_container {
 	background-color: #e8e8e8;
 	position: absolute;
-	height: 100px;
-	width: 480px;
-	bottom: 15px;
-	border-radius: 10px;
+	height: calc(20.74vmin - 7.26vmin);
+	width: 35vmax;
+	bottom: 2vmin;
+	border-radius: 1.5vmin;
 	color: #000000;
 
 }
@@ -308,30 +284,29 @@ opacity: 0;
 	content: "";
 width: 0;
 height: 0;
-border-top: 40px solid transparent;
-border-bottom: 40px solid transparent;
-border-left: 40px solid #e8e8e8;
+border-top: 6vmin solid transparent;
+border-bottom: 6vmin solid transparent;
+border-left: 6vmin solid #e8e8e8;
 position: absolute;
-right: -15px;
+right: -2vmin;
 top: 0;
 }
 
 .hint_desc_buttons {
 	position: absolute;
-	bottom: 10px;
-	left: 10px;
+	bottom: 0.5vmax;
+	left: 0.5vmax;
 }
 
 .hint_desc_paragraph {
-	height: 80px;
-	width: 420px;
+	height: calc(20.74vmin - 7.26vmin - 20px);
+	width: calc(35vmax - 60px);
 	padding: 10px 30px;
 	display: flex;
 	align-items: center;
 	font-family: Lato;
 	text-transform: uppercase;
-	font-size: 13px;
-	font-weight: 400;
+	font-size: 0.95vmax;
 letter-spacing: 1px;
 }
 
@@ -340,17 +315,17 @@ letter-spacing: 1px;
 font-family: Lato;
 font-weight: 900;
 position: absolute;
-top: 50px;
-font-size: 30px;
-line-height: 30px;
-left: 10px;
+top: 7.5vmin;
+font-size: 4.5vmin;
+line-height: 4.5vmin;
+left: 1vmin;
 }
 
 #question_maksimum {
 	color: #519fff;
-font-size: 13px;
-padding-left: 20px;
-line-height: 13px;
+font-size: 2vmin;
+padding-left: 2.8vmin;
+line-height: 2vmin;
 }
 
 #question_content {
@@ -359,11 +334,11 @@ font-weight: 700;
 position: absolute;
 color: #1f1f1f;
 text-transform: uppercase;
-font-size: 16px;
-line-height: 20px;
-width: 535px;
-padding-left: 95px;
-height: 150px;
+font-size: 2.3vmin;
+line-height: 2.8vmin;
+width: calc(116.85vmin - 38vmin);
+padding-left: 14vmin;
+height: 21.76vmin;
 display: flex;
 align-items: center;
 letter-spacing: 1px;
@@ -371,19 +346,19 @@ letter-spacing: 1px;
 
 #test_progress_bar {
 	position: absolute;
-	top: 55px;
-	left: 40px;
+	top: 4vmax;
+	left: 3vmax;
 	display: flex;
-	width: 450px;
+	width: 70vmin;
 	z-index: 10;
 }
 
 
 .question_bullet {
 	background-color: #5d71ba;
-	width: calc((450px / 50) - 3px);
-	height: calc((450px / 50) - 3px);
-	margin-right: 3px;
+	width: calc((70vmin / 50) - 0.5vmin);
+	height: calc((70vmin / 50) - 0.5vmin);
+	margin-right: 0.5vmin;
 	border-radius: 100%;
 }
 
@@ -402,8 +377,8 @@ letter-spacing: 1px;
 	color: #95a8f0;
 	position: absolute;
 	z-index: 10;
-	top: 25px;
-	left: 40px;
+	top: 2vmax;
+	left: 3vmax;
 
 }
 
@@ -412,8 +387,8 @@ font-family: Lato;
 font-weight: 700;
 text-transform: uppercase;
 position: absolute;
-top: 70px;
-left: 40px;
+top: 5.2vmax;
+left: 3vmax;
 color: #e8e8e8;
 z-index: 10;
 }
@@ -425,61 +400,9 @@ z-index: 10;
 
 
 
-.window_holder {height:100vh;
-	width:100vw;
-	overflow: hidden;
-	min-height: 680px;
-	min-width: 1280px;
-position: relative;
-display: none;
-}
-
- #main_game {display: block;}
-
- @media screen and (min-width: 320px) and (max-width: 1279px) and (orientation: portrait) {
-  html {
-    transform: rotate(-90deg);
-    transform-origin: left top;
-    width: 100vh;
-    height: 100vw;
-    overflow-x: hidden;
-    position: absolute;
-    top: 100%;
-    left: 0;
-  }
-
-  #wrapper {
-		width: 100vh;
-		height: 100vw;
-	}
-	.window_holder {
-		width: 100vh;
-		height: 100vw;
-	}
-
-	.haruto_2021, .haruto_2020, .haruto_2018 {
-		height: 100vw;
-		width: 35vh;
-	}
-
-	#fleksed_div {
-		height: 72vw;
-		display: flex;
-		align-items: center;
-		justify-content: flex-end;
-	}
-
-	#fleksed_div .inner {
-    position: absolute;
-    height: 500px;
-    width: 100vh;
-}
-}
 
 
-
-
-
+ #main_language, #main_credits {display: none;}
 
 
 

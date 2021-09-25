@@ -25,6 +25,7 @@ function resetHint(){
 	$("#hint_desc_container").html('<div class="hint_desc_paragraph"></div>');
 	$(".hint_desc_paragraph").html("...");
  	$(".the_big_catto").removeClass("selected");
+ 	$("#big_5").addClass("selected");
  	$(".catto_button").removeClass("selected");
 }
 
@@ -249,3 +250,6 @@ for (var j = 0; j < arrListRightWrong.length; j++) {
   }
 
 }
+
+
+screen.orientation.lock("landscape");
