@@ -24,9 +24,11 @@ arrCorrectAnswer = JSON.parse(localStorage.getItem("hbdHawwu2021_arrCorrectAnswe
 
 			localStorage.setItem("hbdHawwu2021_curHawwu", 2020);
 
+			$(".haruto_normal").removeClass("selected");
+			$(".haruto_incorrect").removeClass("selected");
+			$(".haruto_correct").removeClass("selected")
 
-
-			$(".haruto_" + localStorage.getItem("hbdHawwu2021_curHawwu") + ".haruto_normal").addClass("selected");
+			$(".haruto_2020.haruto_normal").addClass("selected");
 	}
 
 	else if ((localStorage.getItem("hbdHawwu2021_curHawwu") == "2020") && (arrCorrectAnswer.length == 40) ) {
@@ -48,6 +50,12 @@ arrCorrectAnswer = JSON.parse(localStorage.getItem("hbdHawwu2021_arrCorrectAnswe
 
 
 			localStorage.setItem("hbdHawwu2021_curHawwu", 2021);
+
+			$(".haruto_normal").removeClass("selected");
+			$(".haruto_incorrect").removeClass("selected");
+			$(".haruto_correct").removeClass("selected")
+
+			$(".haruto_2021.haruto_normal").addClass("selected");
 			
 	}
 
