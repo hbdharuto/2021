@@ -564,7 +564,7 @@ background-repeat: no-repeat;
 	text-align: center;
 	text-transform: uppercase;
 	font-family: Lato;
-
+padding: 2vw;
 	position: fixed;
 	bottom: 10vh;
 	margin: auto;
@@ -629,7 +629,7 @@ background-repeat: no-repeat;
 	
 	width: 50vh;
 	height: 30vw;
-	
+	padding: 2vh;
 	bottom: 10vw;
 	left:  25vh;
 	border-radius: 2vh;

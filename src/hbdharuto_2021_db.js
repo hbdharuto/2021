@@ -498,6 +498,218 @@ var arrQuestion = [
     1,  // indeks jawaban yang benar
     96, // comment 1 first indeks
     97 // comment 2 first indeks
+  ],
+  [ 35, // Question ID
+    '<span class="t_en">What is Haruto’s blood type?</span>', // q in en
+    '<span class="t_jp">悠人の血液型は？</span>', // q in jp
+    [ '<div class="answer_bottom">A</div><div class="answer_centering">A</div>',
+      '<div class="answer_bottom">B</div><div class="answer_centering">B</div>',
+      '<div class="answer_bottom">C</div><div class="answer_centering">AB</div>',
+      '<div class="answer_bottom">D</div><div class="answer_centering">O</div>'], // a in en
+
+    [ '<div class="answer_bottom">A</div><div class="answer_centering">A</div>',
+      '<div class="answer_bottom">B</div><div class="answer_centering">B</div>',
+      '<div class="answer_bottom">C</div><div class="answer_centering">AB</div>',
+      '<div class="answer_bottom">D</div><div class="answer_centering">O</div>'],  // a in jp
+    1,  // indeks jawaban yang benar
+    98, // comment 1 first indeks
+    98 // comment 2 first indeks
+  ],
+  [ 36, // Question ID
+    '<span class="t_en">Which one is a correct statement about Haruto?</span>', // q in en
+    '<span class="t_jp">悠人の兄弟に関して正しい記述は？</span>', // q in jp
+   [ '<div class="answer_bottom">A</div><div class="answer_centering">He’s the oldest child in his family.</div>',
+      '<div class="answer_bottom">B</div><div class="answer_centering">He’s the middle child in his family. </div>',
+      '<div class="answer_bottom">C</div><div class="answer_centering">He’s the youngest child in his family.</div>',
+      '<div class="answer_bottom">D</div><div class="answer_centering">He’s an only child.</div>'], // a in en
+
+    [ '<div class="answer_bottom">A</div><div class="answer_centering"><span class="t_jp">長男</span></div>',
+      '<div class="answer_bottom">B</div><div class="answer_centering"><span class="t_jp">真ん中の子</span></div>',
+      '<div class="answer_bottom">C</div><div class="answer_centering"><span class="t_jp">末っ子</span></div>',
+      '<div class="answer_bottom">D</div><div class="answer_centering"><span class="t_jp">一人っ子</span></div>'],  // a in jp
+    1,  // indeks jawaban yang benar
+    99, // comment 1 first indeks
+    99 // comment 2 first indeks
+  ],
+  [ 37, // Question ID
+    '<span class="t_en">True or false, Haruto loves the red thing on almond tofu.</span>', // q in en
+    '<span class="t_jp">悠人は杏仁豆腐の上の赤い実が好きだ</span>', // q in jp
+    ['<div class="answer_centering">True</div>','<div class="answer_centering">False</div>'], // a in en
+    ['<div class="answer_centering"><i class="far fa-circle"></i></div>',' <div class="answer_centering"><i class="fas fa-times"></i></div>'],  // a in jp
+    1,  // indeks jawaban yang benar
+    100, // comment 1 first indeks
+    100 // comment 2 first indeks
+  ],
+  [ 38, // Question ID
+    '<span class="t_en">Haruto likes all of these things, except…</span>', // q in en
+    '<span class="t_jp">次のうち悠人が好きでないものは？</span>', // q in jp
+   [ '<div class="answer_bottom">A</div><div class="answer_centering">Gardening</div>',
+      '<div class="answer_bottom">B</div><div class="answer_centering">Edamame</div>',
+      '<div class="answer_bottom">C</div><div class="answer_centering">His bedhead</div>',
+      '<div class="answer_bottom">D</div><div class="answer_centering">Boiled red snapper</div>'], // a in en
+
+    [ '<div class="answer_bottom">A</div><div class="answer_centering"><span class="t_jp">ガーデニング</span></div>',
+      '<div class="answer_bottom">B</div><div class="answer_centering"><span class="t_jp">納豆</span></div>',
+      '<div class="answer_bottom">C</div><div class="answer_centering"><span class="t_jp">寝癖</span></div>',
+      '<div class="answer_bottom">D</div><div class="answer_centering"><span class="t_jp">金目鯛の煮付け</span></div>'],  // a in jp
+    2,  // indeks jawaban yang benar
+    101, // comment 1 first indeks
+    101 // comment 2 first indeks
+  ],
+  [ 39, // Question ID
+    '<span class="t_en">In VAZZROCK FES, who did not mention their experience seeing sleepy Haruto?</span>', // q in en
+    '<span class="t_jp">VAZZROCK FESで眠い状態の悠人を見たことがあると言わなかった人は？</span>', // q in jp
+   [ '<div class="answer_bottom">A</div><div class="answer_centering">Takaaki</div>',
+      '<div class="answer_bottom">B</div><div class="answer_centering">Issa</div>',
+      '<div class="answer_bottom">C</div><div class="answer_centering">Reiji</div>',
+      '<div class="answer_bottom">D</div><div class="answer_centering">Ayumu</div>'], // a in en
+
+    [ '<div class="answer_bottom">A</div><div class="answer_centering"><span class="t_jp">孝明</span></div>',
+      '<div class="answer_bottom">B</div><div class="answer_centering"><span class="t_jp">一紗</span></div>',
+      '<div class="answer_bottom">C</div><div class="answer_centering"><span class="t_jp">玲司</span></div>',
+      '<div class="answer_bottom">D</div><div class="answer_centering"><span class="t_jp">歩</span></div>'],  // a in jp
+    3,  // indeks jawaban yang benar
+    102, // comment 1 first indeks
+    102 // comment 2 first indeks
+  ],
+  [ 40, // Question ID
+    '<span class="t_en">Which member did Haruto say he wanted to cosplay as for Halloween?</span>', // q in en
+    '<span class="t_jp">悠人がハロウィンで仮装してみたいメンバーは？</span>', // q in jp
+   [ '<div class="answer_bottom">A</div><div class="answer_centering">Ruka</div>',
+      '<div class="answer_bottom">B</div><div class="answer_centering">Gaku</div>',
+      '<div class="answer_bottom">C</div><div class="answer_centering">Reiji</div>',
+      '<div class="answer_bottom">D</div><div class="answer_centering">Sho</div>'], // a in en
+
+    [ '<div class="answer_bottom">A</div><div class="answer_centering"><span class="t_jp">ルカ</span></div>',
+      '<div class="answer_bottom">B</div><div class="answer_centering"><span class="t_jp">岳</span></div>',
+      '<div class="answer_bottom">C</div><div class="answer_centering"><span class="t_jp">玲司</span></div>',
+      '<div class="answer_bottom">D</div><div class="answer_centering"><span class="t_jp">翔</span></div>'],  // a in jp
+    2,  // indeks jawaban yang benar
+    103, // comment 1 first indeks
+    104 // comment 2 first indeks
+  ],
+  [ 41, // Question ID
+    '<span class="t_en">True or false, Yoshida Shouin is the one [bushi/warrior] Haruto looks up to.</span>', // q in en
+    '<span class="t_jp">悠人が尊敬している武士は吉田松陰である</span>', // q in jp
+    ['<div class="answer_centering">True</div>','<div class="answer_centering">False</div>'], // a in en
+    ['<div class="answer_centering"><i class="far fa-circle"></i></div>',' <div class="answer_centering"><i class="fas fa-times"></i></div>'],  // a in jp
+    0,  // indeks jawaban yang benar
+    100, // comment 1 first indeks
+    100 // comment 2 first indeks
+  ],
+  [ 42, // Question ID
+    '<span class="t_en">Which statement is true about Haruto’s uniform during his school time?</span>', // q in en
+    '<span class="t_jp">VAZZROCK FESで眠い状態の悠人を見たことがあると言わなかった人は？</span>', // q in jp
+   [ '<div class="answer_bottom">A</div><div class="answer_centering">Blazer for junior high school, gakuran for senior</div>',
+      '<div class="answer_bottom">B</div><div class="answer_centering">Blazer for both junior and senior high school</div>',
+      '<div class="answer_bottom">C</div><div class="answer_centering">Gakuran for junior high school, Blazer for senior</div>',
+      '<div class="answer_bottom">D</div><div class="answer_centering">Gakuran for both junior and senior high school </div>'], // a in en
+
+    [ '<div class="answer_bottom">A</div><div class="answer_centering"><span class="t_jp">中学:ブレザー、高校:学ラン</span></div>',
+      '<div class="answer_bottom">B</div><div class="answer_centering"><span class="t_jp">中学・高校共にブレザー</span></div>',
+      '<div class="answer_bottom">C</div><div class="answer_centering"><span class="t_jp">中学:学ラン、高校:ブレザー</span></div>',
+      '<div class="answer_bottom">D</div><div class="answer_centering"><span class="t_jp">中学・高校共に学ラン</span></div>'],  // a in jp
+    3,  // indeks jawaban yang benar
+    109, // comment 1 first indeks
+    109 // comment 2 first indeks
+  ],
+  [ 43, // Question ID
+    '<span class="t_en">True or false: In Machine Elements story, Haruto has become Sho’s servant way before Sho denounced his right to the throne.</span>', // q in en
+    '<span class="t_jp">舞台｢キソセカイ｣で悠人は昔から翔の従者である</span>', // q in jp
+    ['<div class="answer_centering">True</div>','<div class="answer_centering">False</div>'], // a in en
+    ['<div class="answer_centering"><i class="far fa-circle"></i></div>',' <div class="answer_centering"><i class="fas fa-times"></i></div>'],  // a in jp
+    0,  // indeks jawaban yang benar
+    113, // comment 1 first indeks
+    113 // comment 2 first indeks
+  ],
+  [ 44, // Question ID
+    '<span class="t_en">Which element can Haruto control in Machine Elements?</span>', // q in en
+    '<span class="t_jp">舞台｢キソセカイ｣における悠人の属性は？</span>', // q in jp
+   [ '<div class="answer_bottom">A</div><div class="answer_centering">Fire</div>',
+      '<div class="answer_bottom">B</div><div class="answer_centering">Water</div>',
+      '<div class="answer_bottom">C</div><div class="answer_centering">Wind</div>',
+      '<div class="answer_bottom">D</div><div class="answer_centering">Earth</div>'], // a in en
+
+    [ '<div class="answer_bottom">A</div><div class="answer_centering"><span class="t_jp">火</span></div>',
+      '<div class="answer_bottom">B</div><div class="answer_centering"><span class="t_jp">水</span></div>',
+      '<div class="answer_bottom">C</div><div class="answer_centering"><span class="t_jp">風</span></div>',
+      '<div class="answer_bottom">D</div><div class="answer_centering"><span class="t_jp">地</span></div>'],  // a in jp
+    3,  // indeks jawaban yang benar
+    114, // comment 1 first indeks
+    114 // comment 2 first indeks
+  ],
+  [ 45, // Question ID
+    '<span class="t_en">Which one is Haruto’s dance technique in Tsukihana Kagura?</span>', // q in en
+    '<span class="t_jp">舞台｢月花神楽｣での悠人の舞技として正しいものは？</span>', // q in jp
+   [ '<div class="answer_bottom">A</div><div class="answer_centering">Mantenkou</div>',
+      '<div class="answer_bottom">B</div><div class="answer_centering">Yakumo</div>',
+      '<div class="answer_bottom">C</div><div class="answer_centering">Sharaku</div>',
+      '<div class="answer_bottom">D</div><div class="answer_centering">Hourakumon</div>'], // a in en
+
+    [ '<div class="answer_bottom">A</div><div class="answer_centering"><span class="t_jp">満天紅</span></div>',
+      '<div class="answer_bottom">B</div><div class="answer_centering"><span class="t_jp">八雲</span></div>',
+      '<div class="answer_bottom">C</div><div class="answer_centering"><span class="t_jp">写楽</span></div>',
+      '<div class="answer_bottom">D</div><div class="answer_centering"><span class="t_jp">豊楽門</span></div>'],  // a in jp
+    1,  // indeks jawaban yang benar
+    115, // comment 1 first indeks
+    115 // comment 2 first indeks
+  ],
+  [ 46, // Question ID
+    '<span class="t_en">Which one of these ROCKDOWN members contributed in saving Haruto from Botan’s red-light district?</span>', // q in en
+    '<span class="t_jp">舞台｢月花神楽｣において牡丹の歓楽街の闇とも言える場所にいた悠人を救ったのは翔と誰？</span>', // q in jp
+   [ '<div class="answer_bottom">A</div><div class="answer_centering">Reiji</div>',
+      '<div class="answer_bottom">B</div><div class="answer_centering">Ayumu</div>',
+      '<div class="answer_bottom">C</div><div class="answer_centering">Gaku</div>',
+      '<div class="answer_bottom">D</div><div class="answer_centering">Ruka </div>'], // a in en
+
+    [ '<div class="answer_bottom">A</div><div class="answer_centering"><span class="t_jp">玲司</span></div>',
+      '<div class="answer_bottom">B</div><div class="answer_centering"><span class="t_jp">歩</span></div>',
+      '<div class="answer_bottom">C</div><div class="answer_centering"><span class="t_jp">岳</span></div>',
+      '<div class="answer_bottom">D</div><div class="answer_centering"><span class="t_jp">ルカ</span></div>'],  // a in jp
+    2,  // indeks jawaban yang benar
+    116, // comment 1 first indeks
+    116 // comment 2 first indeks
+  ],
+  [ 47, // Question ID
+    '<span class="t_en">True or false, in 2P Lockout, Haruto is majoring in Computer Enginering.</span>', // q in en
+    '<span class="t_jp">舞台｢2P lockout｣で悠人は電子工学を学んでいる</span>', // q in jp
+    ['<div class="answer_centering">True</div>','<div class="answer_centering">False</div>'], // a in en
+    ['<div class="answer_centering"><i class="far fa-circle"></i></div>',' <div class="answer_centering"><i class="fas fa-times"></i></div>'],  // a in jp
+    1,  // indeks jawaban yang benar
+    117, // comment 1 first indeks
+    117 // comment 2 first indeks
+  ],
+  [ 48, // Question ID
+    '<span class="t_en">What is the speciality of Haruto’s avatar in 2P Lockout?</span>', // q in en
+    '<span class="t_jp">舞台｢2P lockout｣で悠人のアバターが持つスキルは？</span>', // q in jp
+   [ '<div class="answer_bottom">A</div><div class="answer_centering">Lock</div>',
+      '<div class="answer_bottom">B</div><div class="answer_centering">Transformation</div>',
+      '<div class="answer_bottom">C</div><div class="answer_centering">Chip-off</div>',
+      '<div class="answer_bottom">D</div><div class="answer_centering">Trick</div>'], // a in en
+
+    [ '<div class="answer_bottom">A</div><div class="answer_centering"><span class="t_jp">ロック</span></div>',
+      '<div class="answer_bottom">B</div><div class="answer_centering"><span class="t_jp">変化</span></div>',
+      '<div class="answer_bottom">C</div><div class="answer_centering"><span class="t_jp">削ぎ落とし</span></div>',
+      '<div class="answer_bottom">D</div><div class="answer_centering"><span class="t_jp">トリック</span></div>'],  // a in jp
+    1,  // indeks jawaban yang benar
+    118, // comment 1 first indeks
+    118 // comment 2 first indeks
+  ],
+  [ 49, // Question ID
+    '<span class="t_en">What is Haruto’s class in Zanshin Stage?</span>', // q in en
+    '<span class="t_jp">舞台｢斬心｣における悠人の『銘』は？</span>', // q in jp
+   [ '<div class="answer_bottom">A</div><div class="answer_centering">Major</div>',
+      '<div class="answer_bottom">B</div><div class="answer_centering">Captain</div>',
+      '<div class="answer_bottom">C</div><div class="answer_centering">Lieutenant</div>',
+      '<div class="answer_bottom">D</div><div class="answer_centering">Officer</div>'], // a in en
+
+    [ '<div class="answer_bottom">A</div><div class="answer_centering"><span class="t_jp">Major(修羅)</span></div>',
+      '<div class="answer_bottom">B</div><div class="answer_centering"><span class="t_jp">Captain(戦略)</span></div>',
+      '<div class="answer_bottom">C</div><div class="answer_centering"><span class="t_jp">Lieutenant(英傑)</span></div>',
+      '<div class="answer_bottom">D</div><div class="answer_centering"><span class="t_jp">Officer(金剛)</span></div>'],  // a in jp
+    3,  // indeks jawaban yang benar
+    119, // comment 1 first indeks
+    119 // comment 2 first indeks
   ]
 
 ];

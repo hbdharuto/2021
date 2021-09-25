@@ -74,7 +74,7 @@ function reviewResult() {
 	//// evolving scene;
 			$(".biggest_window ").fadeIn();
 
-			if (arrCorrectAnswer.length <= 20) {
+			if (arrCorrectAnswer.length < 20) {
 
 					$(".haruto_notification").css('background-image','url(https://raw.githubusercontent.com/hbdharuto/2021/gh-pages/images/2018haruto_normal.PNG)');
 
@@ -91,7 +91,7 @@ function reviewResult() {
 					}
 			}
 
-			else if ((arrCorrectAnswer.length > 20) && (arrCorrectAnswer.length <= 40)){
+			else if ((arrCorrectAnswer.length > 19) && (arrCorrectAnswer.length < 40)){
 					$(".haruto_notification").css('background-image','url(https://raw.githubusercontent.com/hbdharuto/2021/gh-pages/images/2020haruto_normal.PNG)');
 
 					if (localStorage.getItem("hbdHawwu2021_appLanguage") == "0") {
@@ -107,7 +107,7 @@ function reviewResult() {
 					}
 			}
 
-			else if ((arrCorrectAnswer.length > 40) && (arrCorrectAnswer.length <= 49)){
+			else if ((arrCorrectAnswer.length > 39) && (arrCorrectAnswer.length < 50)){
 					$(".haruto_notification").css('background-image','url(https://raw.githubusercontent.com/hbdharuto/2021/gh-pages/images/2021haruto_normal.PNG)');
 
 					if (localStorage.getItem("hbdHawwu2021_appLanguage") == "0") {
@@ -144,6 +144,7 @@ function reviewResult() {
 
 
 	console.log("You made " + arrCorrectAnswer.length + " correct answer out of " + arrAnswered.length + " questions.");
+	newGame();
 }
 
 
@@ -301,6 +302,10 @@ while (arrAnswered.includes(newQuestionID)) {
 		}
 
 loadQuestion(newQuestionID);
+
+$(".haruto_normal").removeClass("selected");
+$(".haruto_correct").removeClass("selected");
+$(".haruto_incorrect").removeClass("selected");
 
 $(".haruto_2018.haruto_normal").addClass("selected");
 

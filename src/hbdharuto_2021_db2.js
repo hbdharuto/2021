@@ -295,21 +295,21 @@ var arrMessage = [
   ],
   [ 42, // indeks message
     0, // Siapa yg ngomong 
-    '<span class="t_en">She’s a nurse~</b></span>', // msg in en
+    '<span class="t_en">She’s a nurse~</span>', // msg in en
     '<span class="t_jp">悠人のお姉さんは看護師さんだよね</span>', // msg in jp
     -1, // id msg sebelumnya
     -1, // id msg berikutnya
   ],
   [ 43, // indeks message
     2, // Siapa yg ngomong 
-    '<span class="t_en">I shouldn’t even be surprised that Sho knows, huh...  Haruto and Futaba’s outing was in...</b></span>', // msg in en
+    '<span class="t_en">I shouldn’t even be surprised that Sho knows, huh...  Haruto and Futaba’s outing was in...</span>', // msg in en
     '<span class="t_jp">流石に翔は詳しいな。この内容はbi-colorシリーズの3rd、Vol. 3 -Topaz x Sapphire-で聴くことができます。</span>', // msg in jp
     -1, // id msg sebelumnya
     44, // id msg berikutnya
   ],
   [ 44, // indeks message
     2, // Siapa yg ngomong 
-    '<span class="t_en">...Bi Color Season 3 Vol. 5 - Topaz x Sapphire. Haruto’s trick to ask Futaba out for the outing was interesting. </b></span>', // msg in en
+    '<span class="t_en">...Bi Color Season 3 Vol. 5 - Topaz x Sapphire. Haruto’s trick to ask Futaba out for the outing was interesting. </span>', // msg in en
     '<span class="t_jp">是非。……それにしても、悠人が二葉を誘うのに使った方法は面白かったな</span>', // msg in jp
     43, // id msg sebelumnya
     -1, // id msg berikutnya
@@ -684,5 +684,161 @@ var arrMessage = [
     '<span class="t_jp">ひれ伏すのは印籠が偉いからだと思っていたからだそうだ…… (<a href="https://twitter.com/vazzrock_info/status/1356613173839806465">[Twitter]</a>)</span>', // msg in jp
     -1, // id msg sebelumnya
     -1, // id msg berikutnya
+  ],
+  [ 98, // indeks message
+    2, // Siapa yg ngomong 
+    '<span class="t_en">You can find this information in <b>[Tsukipro Info]</b></span>', // msg in en
+    '<span class="t_jp">プロフィールに関してはTsukipro infoで知ることができます。便利だな……', // msg in jp
+    -1, // id msg sebelumnya
+    -1, // id msg berikutnya
+  ],
+  [ 99, // indeks message
+    2, // Siapa yg ngomong 
+    '<span class="t_en">You can find this information in <b>[Tsukipro Info]</b></span>', // msg in en
+    '<span class="t_jp">この情報もTsukipro infoのものですね。確か上は……姉がいるんだったな', // msg in jp
+    -1, // id msg sebelumnya
+    -1, // id msg berikutnya
+  ],
+  [ 100, // indeks message
+    2, // Siapa yg ngomong 
+    '<span class="t_en">You can find this information in <b>[Tsukipro Info]</b></span>', // msg in en
+    '<span class="t_jp">これもTsukipro infoからですね。確かあれは……クコの実、だよな', // msg in jp
+    -1, // id msg sebelumnya
+    -1, // id msg berikutnya
+  ],
+  [ 101, // indeks message
+    2, // Siapa yg ngomong 
+    '<span class="t_en">You can find this information in <b>[Tsukipro Info]</b></span>', // msg in en
+    '<span class="t_jp">これもTsukipro infoからです。ガーデニングは良いな、俺も好きだ', // msg in jp
+    -1, // id msg sebelumnya
+    -1, // id msg berikutnya
+  ],
+  [ 102, // indeks message
+    2, // Siapa yg ngomong 
+    '<span class="t_en">This was in [VAZZROCK FES Reading Drama, Day 26, Noon Show]. The answer is… well...</span>', // msg in en
+    '<span class="t_jp">これは……確か11月26日のVAZZROCK FES、昼の部の時の話だな。確かに俺は見たことがない……話を聞く限り凄いらしいな……', // msg in jp
+    -1, // id msg sebelumnya
+    -1, // id msg berikutnya
+  ],
+  [ 103, // indeks message
+    1, // Siapa yg ngomong 
+    '<span class="t_en">Well, he wanted to imitate ME. I can’t even tell if he’s mocking me or not!</span>', // msg in en
+    '<span class="t_jp">なんかあの時カオスだったよな……まあ？俺になりたいっていうセンスは悪くないと思うぜ', // msg in jp
+    -1, // id msg sebelumnya
+    -1, // id msg berikutnya
+  ],
+  [ 104, // indeks message
+    2, // Siapa yg ngomong 
+    '<span class="t_en">You can find the answer in [VAZZROCK FES Reading Drama, Day 26, Noon Show].</span>', // msg in en
+    '<span class="t_jp">これも11月26日のVAZZROCK FES、昼の部での話だな。……', // msg in jp
+    -1, // id msg sebelumnya
+    105, // id msg berikutnya
+  ],
+  [ 105, // indeks message
+    2, // Siapa yg ngomong 
+    '<span class="t_en">Now that you mention it, I wonder if we’ll do it in this Halloween?</span>', // msg in en
+    '<span class="t_jp">今年のハロウィンがどうなるのか、楽しみなような、怖いような……', // msg in jp
+    104, // id msg sebelumnya
+    -1, // id msg berikutnya
+  ],
+  [ 106, // indeks message
+    0, // Siapa yg ngomong 
+    '<span class="t_en">Yes, it’s true~ Haruto really loves the things he said.</span>', // msg in en
+    '<span class="t_jp">悠人は彼の格言を凄く大切にしているよね', // msg in jp
+    -1, // id msg sebelumnya
+    -1, // id msg berikutnya
+  ],
+  [ 107, // indeks message
+    2, // Siapa yg ngomong 
+    '<span class="t_en">And this one is in [VAZZROCK FES Reading Drama, Day 27, Noon Show].</span>', // msg in en
+    '<span class="t_jp">そうだな。……これは確か……11月27日のVAZZROCK FES、昼の部の時の話だな。', // msg in jp
+    -1, // id msg sebelumnya
+    108, // id msg berikutnya
+  ],
+  [ 108, // indeks message
+    2, // Siapa yg ngomong 
+    '<span class="t_en">He also stated the wonderful reasons for this admiration, so please be sure to check it out.</span>', // msg in en
+    '<span class="t_jp">悠人が吉田松陰に憧れている理由もここで聞けますので、是非チェックしてみてください', // msg in jp
+    107, // id msg sebelumnya
+    -1, // id msg berikutnya
+  ],
+  [ 109, // indeks message
+    2, // Siapa yg ngomong 
+    '<span class="t_en"> Ah, this one is in [VAZZROCK FES Reading Drama, Day 26, Night Show]. Well, gakuran does fit Haruto…</span>', // msg in en
+    '<span class="t_jp">ああ、これは11月26日VAZZROCK FES、夜の部での話ですね。確かに悠人には学ランが似合うと思う', // msg in jp
+    -1, // id msg sebelumnya
+    110, // id msg berikutnya
+  ],
+  [ 110, // indeks message
+    1, // Siapa yg ngomong 
+    '<span class="t_en">Then why were you angry when I said it would fit you?!</span>', // msg in en
+    '<span class="t_jp">お前ずっとブレザーって言ってたもんな〜俺もだけど', // msg in jp
+    109, // id msg sebelumnya
+    111, // id msg berikutnya
+  ],
+  [ 111, // indeks message
+    2, // Siapa yg ngomong 
+    '<span class="t_en">Moving on.</span>', // msg in en
+    '<span class="t_jp">お前とお揃いなのは……少し嫌だな', // msg in jp
+    110, // id msg sebelumnya
+    112, // id msg berikutnya
+  ],
+  [ 112, // indeks message
+    1, // Siapa yg ngomong 
+    '<span class="t_en">OI!</span>', // msg in en
+    '<span class="t_jp">おい！', // msg in jp
+    111, // id msg sebelumnya
+    -1, // id msg berikutnya
+  ],
+  [ 113, // indeks message
+    2, // Siapa yg ngomong 
+    '<span class="t_en">This one is in the [Machine Elements Pamphlet]</span>', // msg in en
+    '<span class="t_jp">これは……キソセカイのパンフレットに載っている情報ですね。幼馴染という響には……憧れるものがあるな', // msg in jp
+    -1, // id msg sebelumnya
+    -1, // id msg berikutnya
+  ],
+  [ 114, // indeks message
+    2, // Siapa yg ngomong 
+    '<span class="t_en">This one is in the [Machine Elements Pamphlet]</span>', // msg in en
+    '<span class="t_jp">これもキソセカイのパンフレットに載っているものですね。懐かしいな……', // msg in jp
+    -1, // id msg sebelumnya
+    -1, // id msg berikutnya
+  ],
+  [ 115, // indeks message
+    2, // Siapa yg ngomong 
+    '<span class="t_en">You can read the [Tsukihana Kagura Pamphlet] to find the answer!</span>', // msg in en
+    '<span class="t_jp">これは月花神楽のパンフレットに載っていたものですね。設問では悠人以外に翔、玲司、ルカの舞技が使われています', // msg in jp
+    -1, // id msg sebelumnya
+    -1, // id msg berikutnya
+  ],
+  [ 116, // indeks message
+    2, // Siapa yg ngomong 
+    '<span class="t_en">You can read the [Tsukihana Kagura Pamphlet] to find the answer!</span>', // msg in en
+    '<span class="t_jp">これも月花神楽のパンフレットを読めばわかりますね。普段は中々ない組み合わせで楽しかったです', // msg in jp
+    -1, // id msg sebelumnya
+    -1, // id msg berikutnya
+  ],
+  [ 117, // indeks message
+    2, // Siapa yg ngomong 
+    '<span class="t_en">The answer is in [2P Lockout Pamphlet]!</span>', // msg in en
+    '<span class="t_jp">これは｢2P lockout｣のパンフレットに載っているものですね。珍しい役柄で悠人が楽しそうにしていたのを覚えている', // msg in jp
+    -1, // id msg sebelumnya
+    -1, // id msg berikutnya
+  ],
+  [ 118, // indeks message
+    2, // Siapa yg ngomong 
+    '<span class="t_en">The answer is in [2P Lockout Pamphlet]! </span>', // msg in en
+    '<span class="t_jp">これも｢2P lockout｣のパンフレットからですね。ちなみに設問では悠人以外に翔、俺、ルカのスキルが使われています', // msg in jp
+    -1, // id msg sebelumnya
+    -1, // id msg berikutnya
+  ],
+  [ 119, // indeks message
+    2, // Siapa yg ngomong 
+    '<span class="t_en">Pretty obvious, it was in the <a href="https://twitter.com/vazzrock_info/status/1439139069762494464">Zanshin visual announcement</a>.</span>', // msg in en
+    '<span class="t_jp">これは今年の舞台ですね。ビジュアル解禁の時に一緒に発表されているので、良ければ見てみてください [<a href="https://twitter.com/vazzrock_info/status/1439139069762494464">Twitter</a>]', // msg in jp
+    -1, // id msg sebelumnya
+    -1, // id msg berikutnya
   ]
 ];
+
+
