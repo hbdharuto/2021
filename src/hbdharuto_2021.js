@@ -493,30 +493,14 @@ $(".biggest_window").fadeOut();
 
 
 
+if ($( window ).height() > $( window ).width()) {
 
-/* Get the documentElement (<html>) to display the page in fullscreen */
-var elem = document.documentElement;
+$("html").width($( window ).height());
+$("#wrapper").width($( window ).height());
+$(".window_holder").width($( window ).height());
 
-/* View in fullscreen */
-function openFullscreen() {
-  if (elem.requestFullscreen) {
-    elem.requestFullscreen();
-  } else if (elem.webkitRequestFullscreen) { /* Safari */
-    elem.webkitRequestFullscreen();
-  } else if (elem.msRequestFullscreen) { /* IE11 */
-    elem.msRequestFullscreen();
-  }
+$("html").height($( window ).width());
+$("#wrapper").height($( window ).width());
+$(".window_holder").height($( window ).width());
+
 }
-
-/* Close fullscreen */
-function closeFullscreen() {
-  if (document.exitFullscreen) {
-    document.exitFullscreen();
-  } else if (document.webkitExitFullscreen) { /* Safari */
-    document.webkitExitFullscreen();
-  } else if (document.msExitFullscreen) { /* IE11 */
-    document.msExitFullscreen();
-  }
-}
-
-openFullscreen();
