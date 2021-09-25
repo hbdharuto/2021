@@ -4,21 +4,51 @@ function harutoEvolve () {
 arrCorrectAnswer = JSON.parse(localStorage.getItem("hbdHawwu2021_arrCorrectAnswer"));
 
 	if ((localStorage.getItem("hbdHawwu2021_curHawwu") == "2018") && (arrCorrectAnswer.length == 20) ) {
-			//// evolving scene;
-			
 
+
+			//// evolving scene;
+			$(".biggest_window ").fadeIn();
+			$(".haruto_notification").css('background-image','url(../images/2020haruto_correct.PNG)');
+
+			if (localStorage.getItem("hbdHawwu2021_appLanguage") == "0") {
+					// english message
+
+					$(".haruto_comment").html('<span class="t_en">It seems that you know quite a lot about me!! Well then, shall we answer more questions?</span>');
+			}
+
+			else {
+					// japanese message
+
+					$(".haruto_comment").html('<span class="t_jp">俺のこと沢山知ってくれてるんですね。ありがとうございます。<br><br>もっと答えて久慈川マスターを目指しませんか？</span>');
+			}
 
 			localStorage.setItem("hbdHawwu2021_curHawwu", 2020);
 
 
 
-			$(".haruto_" + localStorage.getItem("hbdHawwu2021_curHawwu") + ".haruto_correct").addClass("selected");
+			$(".haruto_" + localStorage.getItem("hbdHawwu2021_curHawwu") + ".haruto_normal").addClass("selected");
 	}
 
 	else if ((localStorage.getItem("hbdHawwu2021_curHawwu") == "2020") && (arrCorrectAnswer.length == 40) ) {
-			//// how to evolve;
+			//// evolving scene;
+			$(".biggest_window ").fadeIn();
+			$(".haruto_notification").css('background-image','url(../images/2021haruto_correct.PNG)');
+			
+			if (localStorage.getItem("hbdHawwu2021_appLanguage") == "0") {
+					// english message
+
+					$(".haruto_comment").html('<span class="t_en">I can feel your love!!! Now I’m growing even stronger!!!!</span>');
+			}
+
+			else {
+					// japanese message
+
+					$(".haruto_comment").html('<span class="t_jp">あなたの愛を感じます……！久慈川、成長中です。にょきにょき久慈川です</span>');
+			}
+
+
 			localStorage.setItem("hbdHawwu2021_curHawwu", 2021);
-			$(".haruto_" + localStorage.getItem("hbdHawwu2021_curHawwu") + ".haruto_correct").addClass("selected");
+			
 	}
 
 
@@ -202,7 +232,7 @@ while (arrAnswered.includes(newQuestionID)) {
 
 loadQuestion(newQuestionID);
 
-$(".haruto_" + localStorage.getItem("hbdHawwu2021_curHawwu") + ".haruto_normal").addClass("selected");
+$(".haruto_2018.haruto_normal").addClass("selected");
 
 $("#question_current").html(1);
 
@@ -362,8 +392,17 @@ $("#menu_sel_jp").click(function() {
    continueGame();
 });
 
+$(".biggest_window").click(function() {
+$(".biggest_window").fadeOut();
+});
 
 
 
 
 
+$body = $("body");
+
+$(document).on({
+    ajaxStart: function() { $body.addClass("loading");    },
+     ajaxStop: function() { $body.removeClass("loading"); }    
+});

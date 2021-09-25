@@ -20,7 +20,7 @@ body {
 	min-height: 720px;
 	min-width: 1280px;
 
-	background-image: url(../images/background_pattern.jpg);
+	background-image: url(https://raw.githubusercontent.com/hbdharuto/2021/gh-pages/images/background_pattern.jpg);
 	background-size: auto 224px;
 	background-color: #344ea9;
 	background-position: center bottom;
@@ -52,43 +52,43 @@ body {
 }
 
 .haruto_2018.haruto_normal {
-	background-image: url(../images/2018haruto_normal.PNG);
+	background-image: url(https://raw.githubusercontent.com/hbdharuto/2021/gh-pages/images/2018haruto_normal.PNG);
 	
 }
 
 .haruto_2020.haruto_normal {
-	background-image: url(../images/2020haruto_normal.PNG);
+	background-image: url(https://raw.githubusercontent.com/hbdharuto/2021/gh-pages/images/2020haruto_normal.PNG);
 }
 
 .haruto_2021.haruto_normal {
-	background-image: url(../images/2021haruto_normal.PNG);
+	background-image: url(https://raw.githubusercontent.com/hbdharuto/2021/gh-pages/images/2021haruto_normal.PNG);
 }
 
 
 .haruto_2018.haruto_correct {
-	background-image: url(../images/2018haruto_correct.PNG);
+	background-image: url(https://raw.githubusercontent.com/hbdharuto/2021/gh-pages/images/2018haruto_correct.PNG);
 	
 }
 
 .haruto_2020.haruto_correct {
-	background-image: url(../images/2020haruto_correct.PNG);
+	background-image: url(https://raw.githubusercontent.com/hbdharuto/2021/gh-pages/images/2020haruto_correct.PNG);
 }
 
 .haruto_2021.haruto_correct {
-	background-image: url(../images/2021haruto_correct.PNG);
+	background-image: url(https://raw.githubusercontent.com/hbdharuto/2021/gh-pages/images/2021haruto_correct.PNG);
 }
 
 .haruto_2018.haruto_incorrect {
-	background-image: url(../images/2018haruto_incorrect.PNG);
+	background-image: url(https://raw.githubusercontent.com/hbdharuto/2021/gh-pages/images/2018haruto_incorrect.PNG);
 	
 }
 
 .haruto_2020.haruto_incorrect {
-	background-image: url(../images/2020haruto_incorrect.PNG);
+	background-image: url(https://raw.githubusercontent.com/hbdharuto/2021/gh-pages/images/2020haruto_incorrect.PNG);
 }
 
 .haruto_2021.haruto_incorrect {
-	background-image: url(../images/2021haruto_incorrect.PNG);
+	background-image: url(https://raw.githubusercontent.com/hbdharuto/2021/gh-pages/images/2021haruto_incorrect.PNG);
 }
 
 
@@ -103,7 +103,7 @@ body {
 	background-repeat: no-repeat;
 	background-size: contain;
 	z-index: 10;
-	background-image: url(../images/question_bg.png);
+	background-image: url(https://raw.githubusercontent.com/hbdharuto/2021/gh-pages/images/question_bg.png);
 }
 
 
@@ -123,7 +123,7 @@ body {
 	position: relative;
 	width: 320px;
 	height: 130px;
-	background-image: url(../images/bg_answer_raw.jpg);
+	background-image: url(https://raw.githubusercontent.com/hbdharuto/2021/gh-pages/images/bg_answer_raw.jpg);
 	background-position: right 6.3px;
 	background-size: 315px 120px;
 	background-repeat: no-repeat;
@@ -241,23 +241,23 @@ z-index: 5;
 }
 
 #button_0 {
-	background-image: url(../images/Harunya-Catto-1.png);
+	background-image: url(https://raw.githubusercontent.com/hbdharuto/2021/gh-pages/images/Harunya-Catto-1.png);
 }
 
 #button_1 {
-	background-image: url(../images/Harunya-Catto-3.png);
+	background-image: url(https://raw.githubusercontent.com/hbdharuto/2021/gh-pages/images/Harunya-Catto-3.png);
 }
 
 #button_2 {
-	background-image: url(../images/Harunya-Catto-2.png);
+	background-image: url(https://raw.githubusercontent.com/hbdharuto/2021/gh-pages/images/Harunya-Catto-2.png);
 }
 
 #button_3 {
-	background-image: url(../images/Harunya-Catto-4.png);
+	background-image: url(https://raw.githubusercontent.com/hbdharuto/2021/gh-pages/images/Harunya-Catto-4.png);
 }
 
 #button_4 {
-	background-image: url(../images/Harunya-Catto-5.png);
+	background-image: url(https://raw.githubusercontent.com/hbdharuto/2021/gh-pages/images/Harunya-Catto-5.png);
 }
 
 .the_big_catto{
@@ -276,17 +276,17 @@ opacity: 0;
 
 .the_big_catto.selected {opacity: 1;}
 
-#big_0 {background-image: url(../images/Harunya-Catto-1.png);}
+#big_0 {background-image: url(https://raw.githubusercontent.com/hbdharuto/2021/gh-pages/images/Harunya-Catto-1.png);}
 
-#big_1 {background-image: url(../images/Harunya-Catto-3.png);}
+#big_1 {background-image: url(https://raw.githubusercontent.com/hbdharuto/2021/gh-pages/images/Harunya-Catto-3.png);}
 
-#big_2 {background-image: url(../images/Harunya-Catto-2.png);}
+#big_2 {background-image: url(https://raw.githubusercontent.com/hbdharuto/2021/gh-pages/images/Harunya-Catto-2.png);}
 
-#big_3 {background-image: url(../images/Harunya-Catto-4.png);}
+#big_3 {background-image: url(https://raw.githubusercontent.com/hbdharuto/2021/gh-pages/images/Harunya-Catto-4.png);}
 
-#big_4 {background-image: url(../images/Harunya-Catto-5.png);}
+#big_4 {background-image: url(https://raw.githubusercontent.com/hbdharuto/2021/gh-pages/images/Harunya-Catto-5.png);}
 
-#big_5 {background-image: url(../images/Harunya-Catto-Conan.png);}
+#big_5 {background-image: url(https://raw.githubusercontent.com/hbdharuto/2021/gh-pages/images/Harunya-Catto-Conan.png);}
 
 
 #hint_desc_container {
@@ -527,6 +527,53 @@ line-height: 10px;
 	cursor: pointer;
 }
 
+
+.biggest_window {
+	background-color: rgba(0,0,0,1);
+
+width: calc(100vw - calc(100vw - 100%));
+height: calc(100vh - calc(100vh - 100%));
+position: fixed;
+top: 0;
+left: 0;
+z-index: 30;
+cursor: pointer;
+display: none;
+}
+
+.haruto_notification {
+	width: calc(100vw - calc(100vw - 100%));
+height: calc(100vh - calc(100vh - 100%));
+position: fixed;
+top: 0;
+left: 0;
+z-index: 30;
+background-position: center bottom;
+background-size: contain;
+background-repeat: no-repeat;
+
+}
+
+.haruto_comment {
+	display: flex;
+	width: 50vw;
+	height: 30vh;
+	background-color: #ebebeb;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	text-transform: uppercase;
+	font-family: Lato;
+
+	position: fixed;
+	bottom: 10vh;
+	margin: auto;
+	color: #000;
+	left:  25vw;
+	z-index: 32;
+	border-radius: 2vw;
+}
+
  @media screen and (min-width: 320px) and (max-width: 1279px) and (orientation: portrait) {
   html {
     transform: rotate(-90deg);
@@ -577,12 +624,35 @@ line-height: 10px;
 	width: 1000px;
 	padding-left: 50px;
 }
+
+.haruto_comment {
+	
+	width: 50vh;
+	height: 30vw;
+	
+	bottom: 10vw;
+	left:  25vh;
+	border-radius: 2vh;
+}
 }
 
 
 
-
-
-
-
-
+/* Start by setting display:none to make this hidden.
+   Then we position it in relation to the viewport window
+   with position:fixed. Width, height, top and left speak
+   for themselves. Background we set to 80% white with
+   our animation centered, and no-repeating */
+#loader {
+    display:    block;
+    position:   fixed;
+    z-index:    1000;
+    top:        0;
+    left:       0;
+    height:     100%;
+    width:      100%;
+    background: rgba( 0, 0, 0, 1) 
+                url('http://i.stack.imgur.com/FhHRx.gif') 
+                50% 50% 
+                no-repeat;
+}

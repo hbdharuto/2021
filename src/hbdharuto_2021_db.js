@@ -1,3 +1,13 @@
+
+$.preloadImages = function() {
+  for (var i = 0; i < arguments.length; i++) {
+    $("<img />").attr("src", arguments[i]);
+  }
+}
+
+$.preloadImages("https://raw.githubusercontent.com/hbdharuto/2021/gh-pages/images/background_pattern.jpg","https://raw.githubusercontent.com/hbdharuto/2021/gh-pages/images/2018haruto_normal.PNG","https://raw.githubusercontent.com/hbdharuto/2021/gh-pages/images/2020haruto_normal.PNG","https://raw.githubusercontent.com/hbdharuto/2021/gh-pages/images/2021haruto_normal.PNG","https://raw.githubusercontent.com/hbdharuto/2021/gh-pages/images/2018haruto_correct.PNG","https://raw.githubusercontent.com/hbdharuto/2021/gh-pages/images/2020haruto_correct.PNG","https://raw.githubusercontent.com/hbdharuto/2021/gh-pages/images/2021haruto_correct.PNG","https://raw.githubusercontent.com/hbdharuto/2021/gh-pages/images/2018haruto_incorrect.PNG","https://raw.githubusercontent.com/hbdharuto/2021/gh-pages/images/2020haruto_incorrect.PNG","https://raw.githubusercontent.com/hbdharuto/2021/gh-pages/images/2021haruto_incorrect.PNG","https://raw.githubusercontent.com/hbdharuto/2021/gh-pages/images/question_bg.png","https://raw.githubusercontent.com/hbdharuto/2021/gh-pages/images/bg_answer_raw.jpg","https://raw.githubusercontent.com/hbdharuto/2021/gh-pages/images/Harunya-Catto-1.png","https://raw.githubusercontent.com/hbdharuto/2021/gh-pages/images/Harunya-Catto-2.png","https://raw.githubusercontent.com/hbdharuto/2021/gh-pages/images/Harunya-Catto-3.png","https://raw.githubusercontent.com/hbdharuto/2021/gh-pages/images/Harunya-Catto-4.png","https://raw.githubusercontent.com/hbdharuto/2021/gh-pages/images/Harunya-Catto-5.png","https://raw.githubusercontent.com/hbdharuto/2021/gh-pages/images/Harunya-Catto-Conan.png");
+
+
 var arrQuestion = [
   [ 0, // First Question
     '<span class="t_en">True or false, Haruto’s manager was there when he first met Sho.</span>', // q in en
