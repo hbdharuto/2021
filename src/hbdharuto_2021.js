@@ -8,7 +8,7 @@ arrCorrectAnswer = JSON.parse(localStorage.getItem("hbdHawwu2021_arrCorrectAnswe
 
 			//// evolving scene;
 			$(".biggest_window ").fadeIn();
-			$(".haruto_notification").css('background-image','url(../images/2020haruto_correct.PNG)');
+			$(".haruto_notification").css('background-image','url(https://raw.githubusercontent.com/hbdharuto/2021/gh-pages/images/2020haruto_correct.PNG)');
 
 			if (localStorage.getItem("hbdHawwu2021_appLanguage") == "0") {
 					// english message
@@ -32,7 +32,7 @@ arrCorrectAnswer = JSON.parse(localStorage.getItem("hbdHawwu2021_arrCorrectAnswe
 	else if ((localStorage.getItem("hbdHawwu2021_curHawwu") == "2020") && (arrCorrectAnswer.length == 40) ) {
 			//// evolving scene;
 			$(".biggest_window ").fadeIn();
-			$(".haruto_notification").css('background-image','url(../images/2021haruto_correct.PNG)');
+			$(".haruto_notification").css('background-image','url(https://raw.githubusercontent.com/hbdharuto/2021/gh-pages/images/2021haruto_correct.PNG)');
 			
 			if (localStorage.getItem("hbdHawwu2021_appLanguage") == "0") {
 					// english message
@@ -71,6 +71,76 @@ $("#test_progress_bar").append('<div class="question_bullet" id="question_'+i+'"
 
 function reviewResult() {
 
+	//// evolving scene;
+			$(".biggest_window ").fadeIn();
+
+			if (arrCorrectAnswer.length <= 20) {
+
+					$(".haruto_notification").css('background-image','url(https://raw.githubusercontent.com/hbdharuto/2021/gh-pages/images/2018haruto_normal.PNG)');
+
+					if (localStorage.getItem("hbdHawwu2021_appLanguage") == "0") {
+						// english message
+
+						$(".haruto_comment").html('<span class="t_en">It’s okay, you can do it again! You can click for hints from the others too if it’s too hard!!!</span>');
+					}
+
+					else {
+						// japanese message
+
+						$(".haruto_comment").html('<span class="t_jp">お疲れ様です。もう一回やってみませんか？<br><br>クイズが難しい時は、アイコンクリックでヒントを出すこともできるらしいですよ。ハイテクですね</span>');
+					}
+			}
+
+			else if ((arrCorrectAnswer.length > 20) && (arrCorrectAnswer.length <= 40)){
+					$(".haruto_notification").css('background-image','url(https://raw.githubusercontent.com/hbdharuto/2021/gh-pages/images/2020haruto_normal.PNG)');
+
+					if (localStorage.getItem("hbdHawwu2021_appLanguage") == "0") {
+						// english message
+
+						$(".haruto_comment").html('<span class="t_en">Not bad, but I know you can do more!!! I know you want to know about me!!!</span>');
+					}
+
+					else {
+						// japanese message
+
+						$(".haruto_comment").html('<span class="t_jp">悪くないです……が、あなたならきっともっと高みを目指せます！<br><br>あなたが俺のことを知りたいと思ってくれている気持ち、伝わっていますよ。さあどうぞ！！！</span>');
+					}
+			}
+
+			else if ((arrCorrectAnswer.length > 40) && (arrCorrectAnswer.length <= 49)){
+					$(".haruto_notification").css('background-image','url(https://raw.githubusercontent.com/hbdharuto/2021/gh-pages/images/2021haruto_normal.PNG)');
+
+					if (localStorage.getItem("hbdHawwu2021_appLanguage") == "0") {
+						// english message
+
+						$(".haruto_comment").html('<span class="t_en">Just a little bit more!!! Don’t you want to know all the answers?!</span>');
+					}
+
+					else {
+						// japanese message
+
+						$(".haruto_comment").html('<span class="t_jp">凄い、惜しいな……あと少しです。もっともっと、久慈川悠人の全てを知りたいと思いませんか？</span>');
+					}
+			}
+			else if (arrCorrectAnswer.length == 50) {
+					$(".haruto_notification").css('background-image','url(https://raw.githubusercontent.com/hbdharuto/2021/gh-pages/images/2021haruto_correct.PNG)');
+
+					if (localStorage.getItem("hbdHawwu2021_appLanguage") == "0") {
+						// english message
+
+						$(".haruto_comment").html('<span class="t_en">Whoa, you really did it!!! Thank you so much for taking your time to know about me. I will keep growing to become an even better version of myself, more and more!!!</span>');
+					}
+
+					else {
+						// japanese message
+
+						$(".haruto_comment").html('<span class="t_jp">おめでとうございます！！凄いですね……！<br><br> 俺のことを知ろうと時間を割いてくださって、本当にありがとうございます。もっともっと、高みの久慈川、スーパー久慈川を目指して成長していきますので、これからもよろしくお願いしますね！</span>');
+					}
+			}
+
+			
+
+			
 
 
 	console.log("You made " + arrCorrectAnswer.length + " correct answer out of " + arrAnswered.length + " questions.");

@@ -651,8 +651,8 @@ background-repeat: no-repeat;
     left:       0;
     height:     100%;
     width:      100%;
-    background: rgba( 0, 0, 0, 1) 
-                url('http://i.stack.imgur.com/FhHRx.gif') 
+    background: #fff 
+                url('https://raw.githubusercontent.com/hbdharuto/2021/gh-pages/images/loadingbar.gif') 
                 50% 50% 
                 no-repeat;
 }
