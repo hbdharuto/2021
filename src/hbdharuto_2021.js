@@ -10,6 +10,17 @@ arrCorrectAnswer = JSON.parse(localStorage.getItem("hbdHawwu2021_arrCorrectAnswe
 			$(".biggest_window ").fadeIn();
 			$(".haruto_notification").css('background-image','url(https://raw.githubusercontent.com/hbdharuto/2021/gh-pages/images/2020haruto_correct.PNG)');
 
+
+			localStorage.setItem("hbdHawwu2021_curHawwu", 2020);
+
+			$(".haruto_normal").removeClass("selected");
+			$(".haruto_incorrect").removeClass("selected");
+			$(".haruto_correct").removeClass("selected")
+
+			$(".haruto_2020.haruto_normal").addClass("selected");
+
+
+
 			if (localStorage.getItem("hbdHawwu2021_appLanguage") == "0") {
 					// english message
 
@@ -22,19 +33,21 @@ arrCorrectAnswer = JSON.parse(localStorage.getItem("hbdHawwu2021_arrCorrectAnswe
 					$(".haruto_comment").html('<span class="t_jp">俺のこと沢山知ってくれてるんですね。ありがとうございます。<br><br>もっと答えて久慈川マスターを目指しませんか？</span>');
 			}
 
-			localStorage.setItem("hbdHawwu2021_curHawwu", 2020);
 
-			$(".haruto_normal").removeClass("selected");
-			$(".haruto_incorrect").removeClass("selected");
-			$(".haruto_correct").removeClass("selected")
-
-			$(".haruto_2020.haruto_normal").addClass("selected");
 	}
 
 	else if ((localStorage.getItem("hbdHawwu2021_curHawwu") == "2020") && (arrCorrectAnswer.length == 40) ) {
 			//// evolving scene;
 			$(".biggest_window ").fadeIn();
 			$(".haruto_notification").css('background-image','url(https://raw.githubusercontent.com/hbdharuto/2021/gh-pages/images/2021haruto_correct.PNG)');
+
+			localStorage.setItem("hbdHawwu2021_curHawwu", 2021);
+
+			$(".haruto_normal").removeClass("selected");
+			$(".haruto_incorrect").removeClass("selected");
+			$(".haruto_correct").removeClass("selected")
+
+			$(".haruto_2021.haruto_normal").addClass("selected");
 			
 			if (localStorage.getItem("hbdHawwu2021_appLanguage") == "0") {
 					// english message
@@ -47,15 +60,6 @@ arrCorrectAnswer = JSON.parse(localStorage.getItem("hbdHawwu2021_arrCorrectAnswe
 
 					$(".haruto_comment").html('<span class="t_jp">あなたの愛を感じます……！久慈川、成長中です。にょきにょき久慈川です</span>');
 			}
-
-
-			localStorage.setItem("hbdHawwu2021_curHawwu", 2021);
-
-			$(".haruto_normal").removeClass("selected");
-			$(".haruto_incorrect").removeClass("selected");
-			$(".haruto_correct").removeClass("selected")
-
-			$(".haruto_2021.haruto_normal").addClass("selected");
 			
 	}
 
@@ -152,7 +156,12 @@ function reviewResult() {
 
 
 	console.log("You made " + arrCorrectAnswer.length + " correct answer out of " + arrAnswered.length + " questions.");
+
+	$('.window_holder').fadeOut();
+  $("#main_welcome").fadeIn();
+  
 	newGame();
+
 }
 
 
@@ -482,10 +491,3 @@ $(".biggest_window").fadeOut();
 
 
 
-
-$body = $("body");
-
-$(document).on({
-    ajaxStart: function() { $body.addClass("loading");    },
-     ajaxStop: function() { $body.removeClass("loading"); }    
-});
