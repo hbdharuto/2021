@@ -1,7 +1,14 @@
 
 function harutoEvolve () {
 
-arrCorrectAnswer = JSON.parse(localStorage.getItem("hbdHawwu2021_arrCorrectAnswer"));
+if (localStorage.getItem("hbdHawwu2021_arrCorrectAnswer") === null) {
+  arrCorrectAnswer = [];
+  localStorage.setItem("hbdHawwu2021_arrCorrectAnswer", JSON.stringify(arrCorrectAnswer)); 
+}
+
+else {
+  arrCorrectAnswer = JSON.parse(localStorage.getItem("hbdHawwu2021_arrCorrectAnswer"));
+}
 
 	if ((localStorage.getItem("hbdHawwu2021_curHawwu") == "2018") && (arrCorrectAnswer.length == 20) ) {
 
@@ -74,7 +81,7 @@ $("#test_progress_bar").append('<div class="question_bullet" id="question_'+i+'"
 }
 
 /*<div class="answer_box">
-  <div class="answer_bg"></div>
+  <div class="answer_bg"></div>	
   <div class="answer_bottom">A</div>
   <div class="answer_centering">test</div>
 </div>*/
